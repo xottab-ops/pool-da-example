@@ -2,7 +2,22 @@ import json
 import regex
 
 
-def get_time(time: str):
+DAY_POSITION = {
+    "понедельник": 0,
+    "вторник": 1,
+    "среда": 2,
+    "четверг": 3,
+    "пятница": 4,
+    "суббота": 5,
+    "воскресенье": 6,
+}
+
+
+def get_time(time: str) -> tuple[int, int, int, int]:
+    """
+    Функция преобразует время в формате ММ1:ЧЧ1-ММ2:ЧЧ2
+    в кортеж (ММ1, ЧЧ1, ММ2, ЧЧ2)
+    """
     time_start = time.split("-")[0]
     time_end = time.split("-")[1]
     return (
@@ -14,6 +29,11 @@ def get_time(time: str):
 
 
 def init(filename: str) -> tuple[str, str, list]:
+    """
+    Функция запрашивает у пользователя день недели и время, в которое
+    удобно пользователю купаться. Также, предзагружает список бассейнов.
+    Возвращает кортеж (день недели, время, список бассейнов)
+    """
     day_of_week_request = input("Введите день недели, в который хотите покупаться: ")
 
     while True:
@@ -32,6 +52,10 @@ def init(filename: str) -> tuple[str, str, list]:
 def compare_time(
     time_request: tuple[int, int, int, int], work_time: tuple[int, int, int, int]
 ):
+    """
+    Функция сравнивает кортежи 2-х времен. Возвращает True, когда
+    time_request находится во внутреннем промежутке work_time, иначе False
+    """
     compare_start_time = (time_request[0] > work_time[0]) or (
         time_request[0] == work_time[0] and time_request[1] >= work_time[1]
     )
@@ -43,34 +67,51 @@ def compare_time(
     return False
 
 
+def filter_pool(pool, day_of_week_request, time_request):
+    for day in pool["WorkingHoursSummer"]:
+        if day["DayOfWeek"] != day_of_week_request:
+            continue
+        work_time = get_time(day["Hours"])
+        if compare_time(time_request, work_time):
+            return True
+    return False
+
+
 def filter_pools(
     records: list[dict],
     day_of_week_request: str,
     time_request: tuple[int, int, int, int],
 ) -> list[dict]:
-    pools_accepted = []
-    for pool in records:
-        for day in pool["WorkingHoursSummer"]:
-            if day["DayOfWeek"] != day_of_week_request:
-                continue
-            work_time = get_time(day["Hours"])
-            if compare_time(time_request, work_time):
-                pools_accepted.append(
-                    {
-                        "length": pool["DimensionsSummer"][0]["Length"],
-                        "width": pool["DimensionsSummer"][0]["Width"],
-                        "depth": pool["DimensionsSummer"][0]["Depth"],
-                        "pool_name": pool["ObjectName"],
-                        "address": f"{pool["AdmArea"]}, {pool["District"]}, {pool["Address"]}",
-                        "phone": pool["HelpPhone"],
-                        "paid": pool["Paid"],
-                        "work_hours": day["Hours"],
-                    }
-                )
-    return pools_accepted
+    """
+    Функция фильтрует бассейны, подходящие пользователю по
+    дню недели и времени
+    """
+    return [
+        {
+            "length": pool["DimensionsSummer"][0]["Length"],
+            "width": pool["DimensionsSummer"][0]["Width"],
+            "depth": pool["DimensionsSummer"][0]["Depth"],
+            "pool_name": pool["ObjectName"],
+            "address": f"{pool["AdmArea"]}, {pool["District"]}, {pool["Address"]}",
+            "phone": pool["HelpPhone"],
+            "paid": pool["Paid"],
+            "work_hours": pool["WorkingHoursSummer"][DAY_POSITION
+                                                     [day_of_week_request]
+                                                     ][
+                "Hours"
+            ],
+        }
+        for pool in filter(
+            lambda pool: filter_pool(pool, day_of_week_request, time_request),
+            records
+        )
+    ]
 
 
-def compare_max_pool(length, width, depth, max_pool):
+def compare_max_pool(max_pool, **kwargs):
+    length = kwargs.get("length", 30)
+    width = kwargs.get("width", 50)
+    depth = kwargs.get("depth", 80)
     return (
         length > max_pool["length"]
         or length == max_pool["length"]
@@ -88,14 +129,14 @@ def get_max_pool(pools_accepted: list[dict]):
         length = pool["length"]
         width = pool["width"]
         depth = pool["depth"]
-        if get_max_pool(length, width, depth, max_pool):
+        if compare_max_pool(max_pool, length=length, width=width, depth=depth):
             max_pool = pool
     return max_pool
 
 
 def print_max_pool(max_pool: dict, day_of_week_request: str) -> None:
     print(
-        f"""Вам подходит следующий бассейн: 
+        f"""Вам подходит следующий бассейн:
         \rНазвание: {max_pool["pool_name"]}\
 
         \rДлина х Ширина х Высота: {max_pool["length"]} x {max_pool["width"]} x {max_pool["depth"]}
