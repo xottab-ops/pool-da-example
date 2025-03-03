@@ -2,30 +2,111 @@ import json
 import regex
 
 
-DAY_POSITION = {
-    "понедельник": 0,
-    "вторник": 1,
-    "среда": 2,
-    "четверг": 3,
-    "пятница": 4,
-    "суббота": 5,
-    "воскресенье": 6,
-}
+class Time:
+    def __init__(self, hours=0, minutes=0, hours_and_minutes=None):
+        if hours_and_minutes is not None:
+            if not regex.match("[0-2]\d:[0-5]\d", hours_and_minutes):
+                raise ValueError
+            self.hours = int(hours_and_minutes.split(":")[0])
+            self.minutes = int(hours_and_minutes.split(":")[1])
+        else:
+            self.hours = hours
+            self.minutes = minutes
+
+    def __str__(self):
+        return f"{str(self.hours).zfill(2)}:{str(self.minutes).zfill(2)}"
 
 
-def get_time(time: str) -> tuple[int, int, int, int]:
-    """
-    Функция преобразует время в формате ММ1:ЧЧ1-ММ2:ЧЧ2
-    в кортеж (ММ1, ЧЧ1, ММ2, ЧЧ2)
-    """
-    time_start = time.split("-")[0]
-    time_end = time.split("-")[1]
-    return (
-        int(time_start.split(":")[0]),
-        int(time_start.split(":")[1]),
-        int(time_end.split(":")[0]),
-        int(time_end.split(":")[1]),
-    )
+class TimeRange:
+    def __init__(self, time_range):
+        self.time_start = Time(hours_and_minutes=time_range.split("-")[0])
+        self.time_end = Time(hours_and_minutes=time_range.split("-")[1])
+
+    def inner(self, time):
+        compare_start_time = (self.time_start.hours > time.time_start.hours) or (
+            self.time_start.hours == time.time_start.hours
+            and self.time_start.minutes >= time.time_start.minutes
+        )
+        compare_end_time = (self.time_end.hours < time.time_end.hours) or (
+            self.time_end.hours == time.time_end.hours
+            and self.time_end.minutes <= time.time_end.minutes
+        )
+        return compare_start_time and compare_end_time
+
+    def __str__(self):
+        return f"{self.time_start}-{self.time_end}"
+
+
+class WorkingDays:
+    def __init__(self, work_days_list):
+        self.working_days = {}
+        for day in work_days_list:
+            if day["Hours"] == "закрыто":
+                self.working_days[day["DayOfWeek"]] = None
+                continue
+            self.working_days[day["DayOfWeek"]] = TimeRange(day["Hours"])
+
+
+class Address:
+    def __init__(self, admin_area, district, address):
+        self.admin_area = admin_area
+        self.district = district
+        self.address = address
+
+    def __str__(self):
+        return f"{self.admin_area}, {self.district}, {self.address}"
+
+
+class Pool:
+    def __init__(self, json):
+        self.name = json.get("ObjectName", None)
+        self.address = Address(
+            json.get("AdmArea", None),
+            json.get("District", None),
+            json.get("Address", None),
+        )
+        self.phone = json.get("HelpPhone", None)
+        self.paid = json.get("paid", None)
+        self.website = json.get("WebSite", None)
+        if json.get("WorkingHoursSummer", None) is not None:
+            self.work_hours = WorkingDays(json.get("WorkingHoursSummer", None))
+        self.length = json.get("DimensionsSummer", None)[0]["Length"]
+        self.width = json.get("DimensionsSummer", None)[0]["Width"]
+        self.depth = json.get("DimensionsSummer", None)[0]["Depth"]
+
+    def __str__(self):
+        return self.name
+
+    def __get_work_time(self, day_of_week):
+        return self.work_hours.working_days[day_of_week]
+
+    def __print_working_hours(self):
+        for day in self.work_hours.working_days:
+            print(f"{day} - {self.__get_work_time(day)}")
+
+    def print(self):
+        print(
+            f"""Название: {self.name}\
+
+            \rДлина х Ширина х Высота: {self.length} x {self.width} x {self.depth}
+
+            \rАдрес: {self.address}
+            \rТелефон: {self.phone}
+
+            \rПлатный: {self.paid}
+            """
+        )
+        self.__print_working_hours()
+
+    def compare(self, pool):
+        return (
+            self.length > pool.length
+            or self.length == pool.length
+            and self.width > pool.width
+            or self.length == pool.length
+            and self.width == pool.width
+            and (self.depth is not None and self.depth > pool.depth)
+        )
 
 
 def init(filename: str) -> tuple[str, str, list]:
@@ -35,11 +116,10 @@ def init(filename: str) -> tuple[str, str, list]:
     Возвращает кортеж (день недели, время, список бассейнов)
     """
     day_of_week_request = input("Введите день недели, в который хотите покупаться: ")
-
     while True:
         time_request = input("Введите часы в формате XX:XX-XX:XX. Нули тоже вводить ")
-        if regex.match("^[0-2]\d:[0-2]\d-[0-2]\d:[0-2]\d$", time_request):
-            time_request = get_time(time_request)
+        if regex.match("^[0-2]\d:[0-5]\d-[0-2]\d:[0-5]\d$", time_request):
+            time_request = TimeRange(time_request)
             break
         print("Введите правильно")
 
@@ -49,112 +129,40 @@ def init(filename: str) -> tuple[str, str, list]:
     return day_of_week_request, time_request, records
 
 
-def compare_time(
-    time_request: tuple[int, int, int, int], work_time: tuple[int, int, int, int]
-):
-    """
-    Функция сравнивает кортежи 2-х времен. Возвращает True, когда
-    time_request находится во внутреннем промежутке work_time, иначе False
-    """
-    compare_start_time = (time_request[0] > work_time[0]) or (
-        time_request[0] == work_time[0] and time_request[1] >= work_time[1]
-    )
-    compare_end_time = (time_request[2] < work_time[2]) or (
-        time_request[2] == work_time[2] and time_request[3] <= work_time[3]
-    )
-    if compare_start_time and compare_end_time:
-        return True
-    return False
-
-
-def filter_pool(pool, day_of_week_request, time_request):
-    for day in pool["WorkingHoursSummer"]:
-        if day["DayOfWeek"] != day_of_week_request:
+def get_max_pool(max_pool, day_of_week_request, time_request, records):
+    for record in records:
+        pool = Pool(record)
+        if pool.work_hours.working_days[day_of_week_request] is None:
             continue
-        work_time = get_time(day["Hours"])
-        if compare_time(time_request, work_time):
-            return True
-    return False
+        if not time_request.inner(pool.work_hours.working_days[day_of_week_request]):
+            continue
+        if not pool.compare(max_pool):
+            continue
+        max_pool = pool
 
-
-def filter_pools(
-    records: list[dict],
-    day_of_week_request: str,
-    time_request: tuple[int, int, int, int],
-) -> list[dict]:
-    """
-    Функция фильтрует бассейны, подходящие пользователю по
-    дню недели и времени
-    """
-    return [
-        {
-            "length": pool["DimensionsSummer"][0]["Length"],
-            "width": pool["DimensionsSummer"][0]["Width"],
-            "depth": pool["DimensionsSummer"][0]["Depth"],
-            "pool_name": pool["ObjectName"],
-            "address": f"{pool["AdmArea"]}, {pool["District"]}, {pool["Address"]}",
-            "phone": pool["HelpPhone"],
-            "paid": pool["Paid"],
-            "work_hours": pool["WorkingHoursSummer"][DAY_POSITION
-                                                     [day_of_week_request]
-                                                     ][
-                "Hours"
-            ],
-        }
-        for pool in filter(
-            lambda pool: filter_pool(pool, day_of_week_request, time_request),
-            records
-        )
-    ]
-
-
-def compare_max_pool(max_pool, **kwargs):
-    length = kwargs.get("length", 30)
-    width = kwargs.get("width", 50)
-    depth = kwargs.get("depth", 80)
-    return (
-        length > max_pool["length"]
-        or length == max_pool["length"]
-        and width > max_pool["width"]
-        or length == max_pool["length"]
-        and width == max_pool["width"]
-        and (depth is not None and depth > max_pool["depth"])
-    )
-
-
-def get_max_pool(pools_accepted: list[dict]):
-    max_pool = {"length": -1, "width": -1, "depth": -1}
-
-    for pool in pools_accepted:
-        length = pool["length"]
-        width = pool["width"]
-        depth = pool["depth"]
-        if compare_max_pool(max_pool, length=length, width=width, depth=depth):
-            max_pool = pool
-    return max_pool
-
-
-def print_max_pool(max_pool: dict, day_of_week_request: str) -> None:
-    print(
-        f"""Вам подходит следующий бассейн:
-        \rНазвание: {max_pool["pool_name"]}\
-
-        \rДлина х Ширина х Высота: {max_pool["length"]} x {max_pool["width"]} x {max_pool["depth"]}
-
-        \rАдрес: {max_pool["address"]}
-        \rТелефон: {max_pool["phone"]}
-
-        \rПлатный: {max_pool["paid"]}
-        \rЧасы работы в {day_of_week_request}: {max_pool["work_hours"]}
-        """
-    )
+    return max_pool if max_pool.depth != -1 else None
 
 
 def main():
     day_of_week_request, time_request, records = init("data2.json")
-    filtered_pools = filter_pools(records, day_of_week_request, time_request)
-    pool = get_max_pool(filtered_pools)
-    print_max_pool(pool, day_of_week_request)
+    max_pool_json = {"DimensionsSummer": [
+        {"Length": -1,
+         "Width": -1,
+         "Depth": -1}
+         ]
+         }
+    max_pool = Pool(max_pool_json)
+
+    max_pool = get_max_pool(max_pool,
+                            day_of_week_request,
+                            time_request,
+                            records
+                            )
+
+    if max_pool is None:
+        print("Подходящих бассейнов нет")
+        return
+    max_pool.print()
 
 
 if __name__ == "__main__":
