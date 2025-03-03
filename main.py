@@ -22,14 +22,14 @@ class TimeRange:
         self.time_start = Time(hours_and_minutes=time_range.split("-")[0])
         self.time_end = Time(hours_and_minutes=time_range.split("-")[1])
 
-    def inner(self, time):
-        compare_start_time = (self.time_start.hours > time.time_start.hours) or (
-            self.time_start.hours == time.time_start.hours
-            and self.time_start.minutes >= time.time_start.minutes
+    def __contains__(self, time: Time):
+        compare_start_time = (time.time_start.hours >= self.time_start.hours) or (
+            time.time_start.hours == self.time_start.hours
+            and time.time_start.minutes >= self.time_start.minutes
         )
-        compare_end_time = (self.time_end.hours < time.time_end.hours) or (
-            self.time_end.hours == time.time_end.hours
-            and self.time_end.minutes <= time.time_end.minutes
+        compare_end_time = (time.time_end.hours <= self.time_end.hours) or (
+            time.time_end.hours == self.time_end.hours
+            and time.time_end.minutes <= self.time_end.minutes
         )
         return compare_start_time and compare_end_time
 
@@ -97,15 +97,15 @@ class Pool:
             """
         )
         self.__print_working_hours()
-
-    def compare(self, pool):
+        
+    def __lt__(self, other):
         return (
-            self.length > pool.length
-            or self.length == pool.length
-            and self.width > pool.width
-            or self.length == pool.length
-            and self.width == pool.width
-            and (self.depth is not None and self.depth > pool.depth)
+            self.length < other.length
+            or self.length == other.length
+            and self.width < other.width
+            or self.length == other.length
+            and self.width == other.width
+            and (self.depth is not None and self.depth < other.depth)
         )
 
 
@@ -133,12 +133,9 @@ def get_max_pool(max_pool, day_of_week_request, time_request, records):
     for record in records:
         pool = Pool(record)
         if pool.work_hours.working_days[day_of_week_request] is None:
-            continue
-        if not time_request.inner(pool.work_hours.working_days[day_of_week_request]):
-            continue
-        if not pool.compare(max_pool):
-            continue
-        max_pool = pool
+            continue 
+        if time_request in pool.work_hours.working_days[day_of_week_request] and max_pool < pool:
+            max_pool = pool
 
     return max_pool if max_pool.depth != -1 else None
 
