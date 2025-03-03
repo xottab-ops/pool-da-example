@@ -1,0 +1,5102 @@
+[
+    {
+        "is_deleted": 0,
+        "global_id": 2721739320,
+        "ObjectName": "Спортивный комплекс с бассейном «Москворечье»",
+        "NameSummer": "Бассейн плавательный 25-метровый крытый",
+        "PhotoSummer": [
+            {
+                "is_deleted": 0,
+                "global_id": 78247,
+                "Photo": "cb11ed08-eb23-47b7-828f-c0728707c02e"
+            }
+        ],
+        "AdmArea": "Южный административный округ",
+        "District": "Даниловский район",
+        "Address": "улица Лестева, дом 3, строение 1А",
+        "Email": "yug@mossport.ru",
+        "WebSite": "yug.mossport.ru",
+        "HelpPhone": "(499) 613-94-76",
+        "HelpPhoneExtension": "",
+        "WorkingHoursSummer": [
+            {
+                "is_deleted": 0,
+                "global_id": 2591922,
+                "DayOfWeek": "понедельник",
+                "Hours": "06:30-22:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2591923,
+                "DayOfWeek": "вторник",
+                "Hours": "06:30-22:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2591924,
+                "DayOfWeek": "среда",
+                "Hours": "06:30-22:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2591925,
+                "DayOfWeek": "четверг",
+                "Hours": "06:30-22:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2591926,
+                "DayOfWeek": "пятница",
+                "Hours": "06:30-22:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2591927,
+                "DayOfWeek": "суббота",
+                "Hours": "06:30-22:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2591928,
+                "DayOfWeek": "воскресенье",
+                "Hours": "06:30-22:00"
+            }
+        ],
+        "ClarificationOfWorkingHoursSummer": "",
+        "HasEquipmentRental": "нет",
+        "EquipmentRentalComments": "",
+        "HasTechService": "нет",
+        "TechServiceComments": "",
+        "HasDressingRoom": "да",
+        "HasEatery": "нет",
+        "HasToilet": "да",
+        "HasWifi": "нет",
+        "HasCashMachine": "нет",
+        "HasFirstAidPost": "да",
+        "HasMusic": "да",
+        "UsagePeriodSummer": "01.09-31.08",
+        "DimensionsSummer": [
+            {
+                "is_deleted": 0,
+                "global_id": 370270,
+                "Square": 295,
+                "Length": 25,
+                "Width": 11.8,
+                "Depth": null
+            }
+        ],
+        "Lighting": "смешанное освещение",
+        "SurfaceTypeSummer": "специальное покрытие",
+        "Seats": 0,
+        "Paid": "платно",
+        "PaidComments": "",
+        "DisabilityFriendly": null,
+        "ServicesSummer": "общая физическая подготовка",
+        "geoData": {
+            "coordinates": [
+                37.618586715,
+                55.71437843
+            ],
+            "type": "Point"
+        },
+        "geodata_center": null
+    },
+    {
+        "is_deleted": 0,
+        "global_id": 2721739456,
+        "ObjectName": "Физкультурно-оздоровительный комплекс с бассейном «Радужный»",
+        "NameSummer": "Бассейн плавательный площадью более 60 кв.м крытый",
+        "PhotoSummer": [
+            {
+                "is_deleted": 0,
+                "global_id": 78263,
+                "Photo": "18559a3f-e629-45d2-9e02-ed7ca74b1a0c"
+            }
+        ],
+        "AdmArea": "Западный административный округ",
+        "District": "район Ново-Переделкино",
+        "Address": "Чоботовская улица, дом 4",
+        "Email": "zapad@mossport.ru",
+        "WebSite": "zapad.mossport.ru",
+        "HelpPhone": "(495) 733-22-77",
+        "HelpPhoneExtension": "",
+        "WorkingHoursSummer": [
+            {
+                "is_deleted": 0,
+                "global_id": 2592034,
+                "DayOfWeek": "понедельник",
+                "Hours": "07:00-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2592035,
+                "DayOfWeek": "вторник",
+                "Hours": "07:00-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2592036,
+                "DayOfWeek": "среда",
+                "Hours": "07:00-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2592037,
+                "DayOfWeek": "четверг",
+                "Hours": "07:00-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2592038,
+                "DayOfWeek": "пятница",
+                "Hours": "07:00-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2592039,
+                "DayOfWeek": "суббота",
+                "Hours": "07:00-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2592040,
+                "DayOfWeek": "воскресенье",
+                "Hours": "07:00-23:00"
+            }
+        ],
+        "ClarificationOfWorkingHoursSummer": "",
+        "HasEquipmentRental": "нет",
+        "EquipmentRentalComments": "",
+        "HasTechService": "нет",
+        "TechServiceComments": "",
+        "HasDressingRoom": "да",
+        "HasEatery": "да",
+        "HasToilet": "да",
+        "HasWifi": "да",
+        "HasCashMachine": "нет",
+        "HasFirstAidPost": "да",
+        "HasMusic": "да",
+        "UsagePeriodSummer": "01.09-31.08",
+        "DimensionsSummer": [
+            {
+                "is_deleted": 0,
+                "global_id": 370286,
+                "Square": 128,
+                "Length": 16,
+                "Width": 8,
+                "Depth": 0.8
+            }
+        ],
+        "Lighting": "смешанное освещение",
+        "SurfaceTypeSummer": "специальное покрытие",
+        "Seats": 0,
+        "Paid": "платно",
+        "PaidComments": "Прейскурант цен указан на сайте организации",
+        "DisabilityFriendly": "частично приспособлен",
+        "ServicesSummer": "общая физическая подготовка",
+        "geoData": {
+            "coordinates": [
+                37.353922869,
+                55.645364981
+            ],
+            "type": "Point"
+        },
+        "geodata_center": null
+    },
+    {
+        "is_deleted": 0,
+        "global_id": 2721739710,
+        "ObjectName": "Спортивный комплекс образовательного учреждения",
+        "NameSummer": "Бассейн плавательный 25-метровый крытый",
+        "PhotoSummer": [
+            {
+                "is_deleted": 0,
+                "global_id": 78292,
+                "Photo": "68abba52-8a8e-4deb-a5aa-30af6b9553e5"
+            }
+        ],
+        "AdmArea": "Западный административный округ",
+        "District": "район Тропарёво-Никулино",
+        "Address": "Никулинская улица, дом 5, корпус 3",
+        "Email": "1741@edu.mos.ru",
+        "WebSite": "sch1741.mskobr.ru",
+        "HelpPhone": "(495) 137-71-71",
+        "HelpPhoneExtension": "",
+        "WorkingHoursSummer": [
+            {
+                "is_deleted": 0,
+                "global_id": 2592237,
+                "DayOfWeek": "понедельник",
+                "Hours": "07:00-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2592238,
+                "DayOfWeek": "вторник",
+                "Hours": "07:00-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2592239,
+                "DayOfWeek": "среда",
+                "Hours": "07:00-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2592240,
+                "DayOfWeek": "четверг",
+                "Hours": "07:00-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2592241,
+                "DayOfWeek": "пятница",
+                "Hours": "07:00-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2592242,
+                "DayOfWeek": "суббота",
+                "Hours": "07:00-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2592243,
+                "DayOfWeek": "воскресенье",
+                "Hours": "09:00-21:00"
+            }
+        ],
+        "ClarificationOfWorkingHoursSummer": "",
+        "HasEquipmentRental": "нет",
+        "EquipmentRentalComments": "",
+        "HasTechService": "нет",
+        "TechServiceComments": "",
+        "HasDressingRoom": "да",
+        "HasEatery": "да",
+        "HasToilet": "да",
+        "HasWifi": "да",
+        "HasCashMachine": "нет",
+        "HasFirstAidPost": "да",
+        "HasMusic": "да",
+        "UsagePeriodSummer": "01.01-31.12",
+        "DimensionsSummer": [
+            {
+                "is_deleted": 0,
+                "global_id": 370315,
+                "Square": 212.5,
+                "Length": 25,
+                "Width": 8.5,
+                "Depth": null
+            }
+        ],
+        "Lighting": "смешанное освещение",
+        "SurfaceTypeSummer": "специальное покрытие",
+        "Seats": 0,
+        "Paid": "платно",
+        "PaidComments": "от 1200 руб",
+        "DisabilityFriendly": "не приспособлен",
+        "ServicesSummer": "общая физическая подготовка",
+        "geoData": {
+            "coordinates": [
+                37.456177697,
+                55.667525198
+            ],
+            "type": "Point"
+        },
+        "geodata_center": null
+    },
+    {
+        "is_deleted": 0,
+        "global_id": 2721740133,
+        "ObjectName": "Спортивный комплекс образовательного учреждения",
+        "NameSummer": "Бассейн плавательный 25-метровый крытый",
+        "PhotoSummer": [
+            {
+                "is_deleted": 0,
+                "global_id": 78340,
+                "Photo": "13694d9a-8454-42ea-a96e-dd2fa3fce522"
+            }
+        ],
+        "AdmArea": "Юго-Западный административный округ",
+        "District": "район Северное Бутово",
+        "Address": "бульвар Дмитрия Донского, дом 14Г",
+        "Email": "2114@edu.mos.ru",
+        "WebSite": "sch2114uz.mskobr.ru",
+        "HelpPhone": "(495) 711-03-99",
+        "HelpPhoneExtension": "",
+        "WorkingHoursSummer": [
+            {
+                "is_deleted": 0,
+                "global_id": 2592573,
+                "DayOfWeek": "понедельник",
+                "Hours": "07:30-21:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2592574,
+                "DayOfWeek": "вторник",
+                "Hours": "07:30-21:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2592575,
+                "DayOfWeek": "среда",
+                "Hours": "07:30-21:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2592576,
+                "DayOfWeek": "четверг",
+                "Hours": "07:30-21:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2592577,
+                "DayOfWeek": "пятница",
+                "Hours": "07:30-21:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2592578,
+                "DayOfWeek": "суббота",
+                "Hours": "09:00-21:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2592579,
+                "DayOfWeek": "воскресенье",
+                "Hours": "09:00-21:00"
+            }
+        ],
+        "ClarificationOfWorkingHoursSummer": "",
+        "HasEquipmentRental": "нет",
+        "EquipmentRentalComments": "",
+        "HasTechService": "нет",
+        "TechServiceComments": "",
+        "HasDressingRoom": "да",
+        "HasEatery": "нет",
+        "HasToilet": "да",
+        "HasWifi": "да",
+        "HasCashMachine": "нет",
+        "HasFirstAidPost": "да",
+        "HasMusic": "да",
+        "UsagePeriodSummer": "01.01-31.12",
+        "DimensionsSummer": [
+            {
+                "is_deleted": 0,
+                "global_id": 370363,
+                "Square": 312.5,
+                "Length": 25,
+                "Width": 12.5,
+                "Depth": 2
+            }
+        ],
+        "Lighting": "смешанное освещение",
+        "SurfaceTypeSummer": "специальное покрытие",
+        "Seats": 0,
+        "Paid": "платно",
+        "PaidComments": "",
+        "DisabilityFriendly": "не приспособлен",
+        "ServicesSummer": "общая физическая подготовка",
+        "geoData": {
+            "coordinates": [
+                37.570085722,
+                55.565058838
+            ],
+            "type": "Point"
+        },
+        "geodata_center": null
+    },
+    {
+        "is_deleted": 0,
+        "global_id": 2721740138,
+        "ObjectName": "Спортивный комплекс образовательного учреждения",
+        "NameSummer": "Бассейн плавательный площадью более 60 кв. м крытый",
+        "PhotoSummer": [
+            {
+                "is_deleted": 0,
+                "global_id": 78342,
+                "Photo": "76e3efe0-c24f-45ef-893e-d9147166c077"
+            }
+        ],
+        "AdmArea": "Юго-Западный административный округ",
+        "District": "район Северное Бутово",
+        "Address": "бульвар Дмитрия Донского, дом 14Г",
+        "Email": "2114@edu.mos.ru",
+        "WebSite": "sch2114uz.mskobr.ru",
+        "HelpPhone": "(495) 711-03-99",
+        "HelpPhoneExtension": "",
+        "WorkingHoursSummer": [
+            {
+                "is_deleted": 0,
+                "global_id": 2592587,
+                "DayOfWeek": "понедельник",
+                "Hours": "07:30-21:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2592588,
+                "DayOfWeek": "вторник",
+                "Hours": "07:30-21:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2592589,
+                "DayOfWeek": "среда",
+                "Hours": "07:30-21:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2592590,
+                "DayOfWeek": "четверг",
+                "Hours": "07:30-21:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2592591,
+                "DayOfWeek": "пятница",
+                "Hours": "07:30-21:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2592592,
+                "DayOfWeek": "суббота",
+                "Hours": "09:00-21:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2592593,
+                "DayOfWeek": "воскресенье",
+                "Hours": "09:00-21:00"
+            }
+        ],
+        "ClarificationOfWorkingHoursSummer": "",
+        "HasEquipmentRental": "нет",
+        "EquipmentRentalComments": "",
+        "HasTechService": "нет",
+        "TechServiceComments": "",
+        "HasDressingRoom": "да",
+        "HasEatery": "нет",
+        "HasToilet": "да",
+        "HasWifi": "да",
+        "HasCashMachine": "нет",
+        "HasFirstAidPost": "да",
+        "HasMusic": "да",
+        "UsagePeriodSummer": "01.01-31.12",
+        "DimensionsSummer": [
+            {
+                "is_deleted": 0,
+                "global_id": 370365,
+                "Square": 93.75,
+                "Length": 12.5,
+                "Width": 7.5,
+                "Depth": 0.9
+            }
+        ],
+        "Lighting": "смешанное освещение",
+        "SurfaceTypeSummer": "специальное покрытие",
+        "Seats": 0,
+        "Paid": "платно",
+        "PaidComments": "",
+        "DisabilityFriendly": "не приспособлен",
+        "ServicesSummer": "общая физическая подготовка",
+        "geoData": {
+            "coordinates": [
+                37.569978434,
+                55.564934807
+            ],
+            "type": "Point"
+        },
+        "geodata_center": null
+    },
+    {
+        "is_deleted": 0,
+        "global_id": 2721740226,
+        "ObjectName": "Спортивный комплекс образовательного учреждения",
+        "NameSummer": "Бассейн плавательный крытый",
+        "PhotoSummer": [
+            {
+                "is_deleted": 0,
+                "global_id": 78364,
+                "Photo": "d48b2233-15e3-4543-91c2-c76eb1a55d44"
+            }
+        ],
+        "AdmArea": "Центральный административный округ",
+        "District": "Пресненский район",
+        "Address": "2-я Звенигородская улица, дом 8",
+        "Email": "2030@edu.mos.ru",
+        "WebSite": "coc2030.mskobr.ru",
+        "HelpPhone": "(499) 795-19-20",
+        "HelpPhoneExtension": "",
+        "WorkingHoursSummer": [
+            {
+                "is_deleted": 0,
+                "global_id": 2592741,
+                "DayOfWeek": "понедельник",
+                "Hours": "08:00-21:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2592742,
+                "DayOfWeek": "вторник",
+                "Hours": "08:00-21:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2592743,
+                "DayOfWeek": "среда",
+                "Hours": "08:00-21:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2592744,
+                "DayOfWeek": "четверг",
+                "Hours": "08:00-21:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2592745,
+                "DayOfWeek": "пятница",
+                "Hours": "08:00-21:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2592746,
+                "DayOfWeek": "суббота",
+                "Hours": "08:00-21:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2592747,
+                "DayOfWeek": "воскресенье",
+                "Hours": "закрыто"
+            }
+        ],
+        "ClarificationOfWorkingHoursSummer": "",
+        "HasEquipmentRental": "нет",
+        "EquipmentRentalComments": "",
+        "HasTechService": "нет",
+        "TechServiceComments": "нет",
+        "HasDressingRoom": "да",
+        "HasEatery": "да",
+        "HasToilet": "да",
+        "HasWifi": "да",
+        "HasCashMachine": "нет",
+        "HasFirstAidPost": "да",
+        "HasMusic": "да",
+        "UsagePeriodSummer": "01.09-31.08",
+        "DimensionsSummer": [
+            {
+                "is_deleted": 0,
+                "global_id": 370387,
+                "Square": 63,
+                "Length": 9,
+                "Width": 7,
+                "Depth": 0.6
+            }
+        ],
+        "Lighting": "смешанное освещение",
+        "SurfaceTypeSummer": "специальное покрытие",
+        "Seats": 0,
+        "Paid": "платно",
+        "PaidComments": "250руб",
+        "DisabilityFriendly": "частично приспособлен",
+        "ServicesSummer": "общая физическая подготовка",
+        "geoData": {
+            "coordinates": [
+                37.555972445,
+                55.759615717
+            ],
+            "type": "Point"
+        },
+        "geodata_center": null
+    },
+    {
+        "is_deleted": 0,
+        "global_id": 2721740418,
+        "ObjectName": "Спортивный комплекс «Гармония»",
+        "NameSummer": "Бассейн плавательный 25-метровый крытый",
+        "PhotoSummer": [
+            {
+                "is_deleted": 0,
+                "global_id": 78411,
+                "Photo": "8e59782e-ea14-433f-94a4-91c076dacb5c"
+            }
+        ],
+        "AdmArea": "Юго-Западный административный округ",
+        "District": "Обручевский район",
+        "Address": "улица Саморы Машела, дом 6, корпус 4",
+        "Email": "mso@mos.ru",
+        "WebSite": "mso.mossport.ru",
+        "HelpPhone": "(495) 681-17-16",
+        "HelpPhoneExtension": "",
+        "WorkingHoursSummer": [
+            {
+                "is_deleted": 0,
+                "global_id": 2593070,
+                "DayOfWeek": "понедельник",
+                "Hours": "07:00-22:30"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2593071,
+                "DayOfWeek": "вторник",
+                "Hours": "07:00-22:30"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2593072,
+                "DayOfWeek": "среда",
+                "Hours": "07:00-22:30"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2593073,
+                "DayOfWeek": "четверг",
+                "Hours": "07:00-22:30"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2593074,
+                "DayOfWeek": "пятница",
+                "Hours": "07:00-22:30"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2593075,
+                "DayOfWeek": "суббота",
+                "Hours": "07:00-22:30"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2593076,
+                "DayOfWeek": "воскресенье",
+                "Hours": "08:00-22:00"
+            }
+        ],
+        "ClarificationOfWorkingHoursSummer": "",
+        "HasEquipmentRental": "нет",
+        "EquipmentRentalComments": "",
+        "HasTechService": "нет",
+        "TechServiceComments": "",
+        "HasDressingRoom": "да",
+        "HasEatery": "да",
+        "HasToilet": "да",
+        "HasWifi": "да",
+        "HasCashMachine": "нет",
+        "HasFirstAidPost": "да",
+        "HasMusic": "да",
+        "UsagePeriodSummer": "01.09-31.08",
+        "DimensionsSummer": [
+            {
+                "is_deleted": 0,
+                "global_id": 370434,
+                "Square": 285,
+                "Length": 25,
+                "Width": 11.4,
+                "Depth": null
+            }
+        ],
+        "Lighting": "смешанное освещение",
+        "SurfaceTypeSummer": "специальное покрытие",
+        "Seats": 0,
+        "Paid": "платно",
+        "PaidComments": "",
+        "DisabilityFriendly": "приспособлен для лиц с нарушением ОДА",
+        "ServicesSummer": "общая физическая подготовка",
+        "geoData": {
+            "coordinates": [
+                37.498637454,
+                55.646871787
+            ],
+            "type": "Point"
+        },
+        "geodata_center": null
+    },
+    {
+        "is_deleted": 0,
+        "global_id": 2721740516,
+        "ObjectName": "Дворец спорта «Некрасовка»",
+        "NameSummer": "Бассейн плавательный 25-метровый крытый",
+        "PhotoSummer": [
+            {
+                "is_deleted": 0,
+                "global_id": 78435,
+                "Photo": "0218d9dd-b7fb-4a5f-ac1c-c669bf549504"
+            }
+        ],
+        "AdmArea": "Юго-Восточный административный округ",
+        "District": "район Некрасовка",
+        "Address": "Покровская улица, дом 22",
+        "Email": "mso@mos.ru",
+        "WebSite": "mso.mossport.ru/",
+        "HelpPhone": "(495) 681-17-16",
+        "HelpPhoneExtension": "",
+        "WorkingHoursSummer": [
+            {
+                "is_deleted": 0,
+                "global_id": 2593238,
+                "DayOfWeek": "понедельник",
+                "Hours": "07:00-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2593239,
+                "DayOfWeek": "вторник",
+                "Hours": "07:00-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2593240,
+                "DayOfWeek": "среда",
+                "Hours": "07:00-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2593241,
+                "DayOfWeek": "четверг",
+                "Hours": "07:00-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2593242,
+                "DayOfWeek": "пятница",
+                "Hours": "07:00-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2593243,
+                "DayOfWeek": "суббота",
+                "Hours": "07:00-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2593244,
+                "DayOfWeek": "воскресенье",
+                "Hours": "07:00-23:00"
+            }
+        ],
+        "ClarificationOfWorkingHoursSummer": "",
+        "HasEquipmentRental": "нет",
+        "EquipmentRentalComments": "",
+        "HasTechService": "да",
+        "TechServiceComments": "",
+        "HasDressingRoom": "да",
+        "HasEatery": "да",
+        "HasToilet": "да",
+        "HasWifi": "да",
+        "HasCashMachine": "да",
+        "HasFirstAidPost": "да",
+        "HasMusic": "да",
+        "UsagePeriodSummer": "01.09-31.08",
+        "DimensionsSummer": [
+            {
+                "is_deleted": 0,
+                "global_id": 370458,
+                "Square": 400,
+                "Length": 25,
+                "Width": 16,
+                "Depth": 1.8
+            }
+        ],
+        "Lighting": "смешанное освещение",
+        "SurfaceTypeSummer": "специальное покрытие",
+        "Seats": 150,
+        "Paid": "платно",
+        "PaidComments": "",
+        "DisabilityFriendly": null,
+        "ServicesSummer": "общая физическая подготовка",
+        "geoData": {
+            "coordinates": [
+                37.929797203,
+                55.704187996
+            ],
+            "type": "Point"
+        },
+        "geodata_center": null
+    },
+    {
+        "is_deleted": 0,
+        "global_id": 2721740520,
+        "ObjectName": "Спортивный комплекс образовательного учреждения",
+        "NameSummer": "Бассейн плавательный площадью более 60 кв.м крытый",
+        "PhotoSummer": [
+            {
+                "is_deleted": 0,
+                "global_id": 78439,
+                "Photo": "6e08c52b-1c9d-4e15-b2a6-5c17bc92e1d7"
+            }
+        ],
+        "AdmArea": "Северо-Восточный административный округ",
+        "District": "район Марьина Роща",
+        "Address": "Октябрьская улица, дом 81",
+        "Email": "sch-mr@edu.mos.ru",
+        "WebSite": "sch-mr.mskobr.ru",
+        "HelpPhone": "(495) 181-56-56",
+        "HelpPhoneExtension": "",
+        "WorkingHoursSummer": [
+            {
+                "is_deleted": 0,
+                "global_id": 2593266,
+                "DayOfWeek": "понедельник",
+                "Hours": "08:00-21:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2593267,
+                "DayOfWeek": "вторник",
+                "Hours": "08:00-21:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2593268,
+                "DayOfWeek": "среда",
+                "Hours": "08:00-21:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2593269,
+                "DayOfWeek": "четверг",
+                "Hours": "08:00-21:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2593270,
+                "DayOfWeek": "пятница",
+                "Hours": "08:00-21:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2593271,
+                "DayOfWeek": "суббота",
+                "Hours": "08:00-21:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2593272,
+                "DayOfWeek": "воскресенье",
+                "Hours": "закрыто"
+            }
+        ],
+        "ClarificationOfWorkingHoursSummer": "",
+        "HasEquipmentRental": "нет",
+        "EquipmentRentalComments": "",
+        "HasTechService": "нет",
+        "TechServiceComments": "",
+        "HasDressingRoom": "да",
+        "HasEatery": "да",
+        "HasToilet": "да",
+        "HasWifi": "да",
+        "HasCashMachine": "нет",
+        "HasFirstAidPost": "да",
+        "HasMusic": "да",
+        "UsagePeriodSummer": "01.09-31.08",
+        "DimensionsSummer": [
+            {
+                "is_deleted": 0,
+                "global_id": 370462,
+                "Square": 150,
+                "Length": 15,
+                "Width": 10,
+                "Depth": 150
+            }
+        ],
+        "Lighting": "смешанное освещение",
+        "SurfaceTypeSummer": "специальное покрытие",
+        "Seats": 0,
+        "Paid": "платно",
+        "PaidComments": "320",
+        "DisabilityFriendly": "не приспособлен",
+        "ServicesSummer": "общая физическая подготовка",
+        "geoData": {
+            "coordinates": [
+                37.612068395,
+                55.796117019
+            ],
+            "type": "Point"
+        },
+        "geodata_center": null
+    },
+    {
+        "is_deleted": 0,
+        "global_id": 2721740522,
+        "ObjectName": "Спортивный комплекс высшего учебного заведения",
+        "NameSummer": "Бассейн плавательный 25-метровый крытый",
+        "PhotoSummer": [
+            {
+                "is_deleted": 0,
+                "global_id": 78440,
+                "Photo": "5c6ab7ce-f3cb-4f3d-ab99-4edb90e0127f"
+            }
+        ],
+        "AdmArea": "Северо-Восточный административный округ",
+        "District": "Алексеевский район",
+        "Address": "улица Касаткина, дом 23",
+        "Email": "info@mgpu.ru",
+        "WebSite": "university-school.mskobr.ru",
+        "HelpPhone": "(499) 762-69-93",
+        "HelpPhoneExtension": "",
+        "WorkingHoursSummer": [
+            {
+                "is_deleted": 0,
+                "global_id": 2593273,
+                "DayOfWeek": "понедельник",
+                "Hours": "07:00-21:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2593274,
+                "DayOfWeek": "вторник",
+                "Hours": "07:00-21:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2593275,
+                "DayOfWeek": "среда",
+                "Hours": "07:00-21:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2593276,
+                "DayOfWeek": "четверг",
+                "Hours": "07:00-21:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2593277,
+                "DayOfWeek": "пятница",
+                "Hours": "07:00-21:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2593278,
+                "DayOfWeek": "суббота",
+                "Hours": "07:00-21:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2593279,
+                "DayOfWeek": "воскресенье",
+                "Hours": "07:00-21:00"
+            }
+        ],
+        "ClarificationOfWorkingHoursSummer": "",
+        "HasEquipmentRental": "нет",
+        "EquipmentRentalComments": "",
+        "HasTechService": "нет",
+        "TechServiceComments": "",
+        "HasDressingRoom": "да",
+        "HasEatery": "да",
+        "HasToilet": "да",
+        "HasWifi": "да",
+        "HasCashMachine": "да",
+        "HasFirstAidPost": "нет",
+        "HasMusic": "да",
+        "UsagePeriodSummer": "01.09-31.08",
+        "DimensionsSummer": [
+            {
+                "is_deleted": 0,
+                "global_id": 370463,
+                "Square": 360.4,
+                "Length": 29.3,
+                "Width": 12.3,
+                "Depth": 2
+            }
+        ],
+        "Lighting": "смешанное освещение",
+        "SurfaceTypeSummer": "специальное покрытие",
+        "Seats": 0,
+        "Paid": "платно",
+        "PaidComments": "Рабочие дни с 7-00 до 15-30 разовое посещение 300 рублей, 4 раза в месяц 1200 рублей, 8 раз в месяц 2100 рублей, 12 раз в месяц 3000 рублей. Рабочие дни с 15-30 до 20-45 и выходные дни разовое посещение 500 рублей, 4 раза в месяц 1600 рублей, 8 раз в месяц 3000 рублей, 12 раз в месяц 4200 рублей",
+        "DisabilityFriendly": "частично приспособлен",
+        "ServicesSummer": "общая физическая подготовка",
+        "geoData": {
+            "coordinates": [
+                37.668184876,
+                55.823754405
+            ],
+            "type": "Point"
+        },
+        "geodata_center": null
+    },
+    {
+        "is_deleted": 0,
+        "global_id": 2721740526,
+        "ObjectName": "Спортивный комплекс высшего учебного заведения",
+        "NameSummer": "Бассейн плавательный крытый",
+        "PhotoSummer": [
+            {
+                "is_deleted": 0,
+                "global_id": 78441,
+                "Photo": "0a1044b6-a1e4-4391-a6ec-3d1a722827bd"
+            }
+        ],
+        "AdmArea": "Северо-Восточный административный округ",
+        "District": "Алексеевский район",
+        "Address": "улица Касаткина, дом 23",
+        "Email": "info@mgpu.ru",
+        "WebSite": "university-school.mskobr.ru",
+        "HelpPhone": "(499) 762-69-93",
+        "HelpPhoneExtension": "",
+        "WorkingHoursSummer": [
+            {
+                "is_deleted": 0,
+                "global_id": 2593280,
+                "DayOfWeek": "понедельник",
+                "Hours": "07:00-21:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2593281,
+                "DayOfWeek": "вторник",
+                "Hours": "07:00-21:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2593282,
+                "DayOfWeek": "среда",
+                "Hours": "07:00-21:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2593283,
+                "DayOfWeek": "четверг",
+                "Hours": "07:00-21:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2593284,
+                "DayOfWeek": "пятница",
+                "Hours": "07:00-21:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2593285,
+                "DayOfWeek": "суббота",
+                "Hours": "07:00-21:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2593286,
+                "DayOfWeek": "воскресенье",
+                "Hours": "07:00-21:00"
+            }
+        ],
+        "ClarificationOfWorkingHoursSummer": "",
+        "HasEquipmentRental": "нет",
+        "EquipmentRentalComments": "",
+        "HasTechService": "нет",
+        "TechServiceComments": "",
+        "HasDressingRoom": "да",
+        "HasEatery": "да",
+        "HasToilet": "да",
+        "HasWifi": "да",
+        "HasCashMachine": "да",
+        "HasFirstAidPost": "нет",
+        "HasMusic": "да",
+        "UsagePeriodSummer": "01.09-31.08",
+        "DimensionsSummer": [
+            {
+                "is_deleted": 0,
+                "global_id": 370464,
+                "Square": 126.54,
+                "Length": 14.8,
+                "Width": 8.55,
+                "Depth": 1.5
+            }
+        ],
+        "Lighting": "смешанное освещение",
+        "SurfaceTypeSummer": "специальное покрытие",
+        "Seats": 0,
+        "Paid": "платно",
+        "PaidComments": "4 раза в месяц 1200 рублей, 8 раз в месяц 2100 рублей, 12 раз в месяц 3000 рублей",
+        "DisabilityFriendly": "частично приспособлен",
+        "ServicesSummer": "общая физическая подготовка",
+        "geoData": {
+            "coordinates": [
+                37.667982123,
+                55.823735321
+            ],
+            "type": "Point"
+        },
+        "geodata_center": null
+    },
+    {
+        "is_deleted": 0,
+        "global_id": 2721742286,
+        "ObjectName": "Бассейн «Орбита»",
+        "NameSummer": "Бассейн плавательный крытый",
+        "PhotoSummer": [
+            {
+                "is_deleted": 0,
+                "global_id": 78688,
+                "Photo": "f354f6d6-132b-488c-bc2d-d687e70f78ac"
+            }
+        ],
+        "AdmArea": "Зеленоградский административный округ",
+        "District": "район Савёлки",
+        "Address": "город Зеленоград, Озёрная аллея, дом 6",
+        "Email": "zelenograd@mossport.ru",
+        "WebSite": "zelenograd.mossport.ru",
+        "HelpPhone": "(499) 735-17-55",
+        "HelpPhoneExtension": "",
+        "WorkingHoursSummer": [
+            {
+                "is_deleted": 0,
+                "global_id": 2595009,
+                "DayOfWeek": "понедельник",
+                "Hours": "08:00-20:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2595010,
+                "DayOfWeek": "вторник",
+                "Hours": "08:00-20:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2595011,
+                "DayOfWeek": "среда",
+                "Hours": "08:00-20:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2595012,
+                "DayOfWeek": "четверг",
+                "Hours": "08:00-20:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2595013,
+                "DayOfWeek": "пятница",
+                "Hours": "08:00-20:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2595014,
+                "DayOfWeek": "суббота",
+                "Hours": "08:00-20:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2595015,
+                "DayOfWeek": "воскресенье",
+                "Hours": "08:00-20:00"
+            }
+        ],
+        "ClarificationOfWorkingHoursSummer": "",
+        "HasEquipmentRental": "нет",
+        "EquipmentRentalComments": "",
+        "HasTechService": "нет",
+        "TechServiceComments": "",
+        "HasDressingRoom": "да",
+        "HasEatery": "да",
+        "HasToilet": "да",
+        "HasWifi": "нет",
+        "HasCashMachine": "нет",
+        "HasFirstAidPost": "да",
+        "HasMusic": "да",
+        "UsagePeriodSummer": "01.01-31.12",
+        "DimensionsSummer": [
+            {
+                "is_deleted": 0,
+                "global_id": 370711,
+                "Square": 133.6,
+                "Length": 16.7,
+                "Width": 8,
+                "Depth": null
+            }
+        ],
+        "Lighting": "смешанное освещение",
+        "SurfaceTypeSummer": "специальное покрытие",
+        "Seats": 0,
+        "Paid": "платно",
+        "PaidComments": "",
+        "DisabilityFriendly": "частично приспособлен",
+        "ServicesSummer": "общая физическая подготовка",
+        "geoData": {
+            "coordinates": [
+                37.226167272,
+                55.986895589
+            ],
+            "type": "Point"
+        },
+        "geodata_center": null
+    },
+    {
+        "is_deleted": 0,
+        "global_id": 2721743439,
+        "ObjectName": "Спортивный комплекс «Дворец детского спорта», стр.2",
+        "NameSummer": "Бассейн плавательный 25-метровый крытый",
+        "PhotoSummer": [
+            {
+                "is_deleted": 0,
+                "global_id": 78875,
+                "Photo": "2cbb6319-25cf-44d0-afc0-9bc401e96a38"
+            }
+        ],
+        "AdmArea": "Центральный административный округ",
+        "District": "Таганский район",
+        "Address": "Рабочая улица, дом 53, строение 2",
+        "Email": "mgfso@mossport.ru",
+        "WebSite": "mgfso.mossport.ru",
+        "HelpPhone": "(499) 242-84-44",
+        "HelpPhoneExtension": "",
+        "WorkingHoursSummer": [
+            {
+                "is_deleted": 0,
+                "global_id": 2596318,
+                "DayOfWeek": "понедельник",
+                "Hours": "07:00-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2596319,
+                "DayOfWeek": "вторник",
+                "Hours": "07:00-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2596320,
+                "DayOfWeek": "среда",
+                "Hours": "07:00-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2596321,
+                "DayOfWeek": "четверг",
+                "Hours": "07:00-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2596322,
+                "DayOfWeek": "пятница",
+                "Hours": "07:00-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2596323,
+                "DayOfWeek": "суббота",
+                "Hours": "07:00-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2596324,
+                "DayOfWeek": "воскресенье",
+                "Hours": "07:00-23:00"
+            }
+        ],
+        "ClarificationOfWorkingHoursSummer": "",
+        "HasEquipmentRental": "нет",
+        "EquipmentRentalComments": "",
+        "HasTechService": "нет",
+        "TechServiceComments": "",
+        "HasDressingRoom": "да",
+        "HasEatery": "нет",
+        "HasToilet": "да",
+        "HasWifi": "нет",
+        "HasCashMachine": "нет",
+        "HasFirstAidPost": "да",
+        "HasMusic": "нет",
+        "UsagePeriodSummer": "01.01-31.12",
+        "DimensionsSummer": [
+            {
+                "is_deleted": 0,
+                "global_id": 370898,
+                "Square": 212.5,
+                "Length": 25,
+                "Width": 8.5,
+                "Depth": 1.8
+            }
+        ],
+        "Lighting": "смешанное освещение",
+        "SurfaceTypeSummer": "специальное покрытие",
+        "Seats": 0,
+        "Paid": "платно",
+        "PaidComments": "актуальный прейскурант цен на сайте организации",
+        "DisabilityFriendly": "частично приспособлен",
+        "ServicesSummer": "общая физическая подготовка",
+        "geoData": {
+            "coordinates": [
+                37.691214596,
+                55.740054314
+            ],
+            "type": "Point"
+        },
+        "geodata_center": null
+    },
+    {
+        "is_deleted": 0,
+        "global_id": 2721743528,
+        "ObjectName": "Физкультурно-оздоровительный комплекс с бассейном «Радужный»",
+        "NameSummer": "Бассейн плавательный 50-метровый крытый",
+        "PhotoSummer": [
+            {
+                "is_deleted": 0,
+                "global_id": 78912,
+                "Photo": "4feae0a6-2d1a-47a8-a4ce-256de8d67495"
+            }
+        ],
+        "AdmArea": "Западный административный округ",
+        "District": "район Ново-Переделкино",
+        "Address": "Чоботовская улица, дом 4",
+        "Email": "zapad@mossport.ru",
+        "WebSite": "zapad.mossport.ru",
+        "HelpPhone": "(495) 733-22-77",
+        "HelpPhoneExtension": "",
+        "WorkingHoursSummer": [
+            {
+                "is_deleted": 0,
+                "global_id": 2596577,
+                "DayOfWeek": "понедельник",
+                "Hours": "07:00-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2596578,
+                "DayOfWeek": "вторник",
+                "Hours": "07:00-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2596579,
+                "DayOfWeek": "среда",
+                "Hours": "07:00-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2596580,
+                "DayOfWeek": "четверг",
+                "Hours": "07:00-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2596581,
+                "DayOfWeek": "пятница",
+                "Hours": "07:00-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2596582,
+                "DayOfWeek": "суббота",
+                "Hours": "07:00-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2596583,
+                "DayOfWeek": "воскресенье",
+                "Hours": "07:00-23:00"
+            }
+        ],
+        "ClarificationOfWorkingHoursSummer": "",
+        "HasEquipmentRental": "нет",
+        "EquipmentRentalComments": "",
+        "HasTechService": "нет",
+        "TechServiceComments": "",
+        "HasDressingRoom": "да",
+        "HasEatery": "да",
+        "HasToilet": "да",
+        "HasWifi": "да",
+        "HasCashMachine": "нет",
+        "HasFirstAidPost": "да",
+        "HasMusic": "да",
+        "UsagePeriodSummer": "01.09-31.08",
+        "DimensionsSummer": [
+            {
+                "is_deleted": 0,
+                "global_id": 370935,
+                "Square": 1250,
+                "Length": 50,
+                "Width": 25,
+                "Depth": null
+            }
+        ],
+        "Lighting": "смешанное освещение",
+        "SurfaceTypeSummer": "специальное покрытие",
+        "Seats": 200,
+        "Paid": "платно",
+        "PaidComments": "Прейскурант цен указан на сайте организации",
+        "DisabilityFriendly": "частично приспособлен",
+        "ServicesSummer": "общая физическая подготовка",
+        "geoData": {
+            "coordinates": [
+                37.35342666,
+                55.645615262
+            ],
+            "type": "Point"
+        },
+        "geodata_center": null
+    },
+    {
+        "is_deleted": 0,
+        "global_id": 2721743745,
+        "ObjectName": "Спортивный комплекс «Измайлово»",
+        "NameSummer": "Бассейн плавательный 25-метровый крытый",
+        "PhotoSummer": [
+            {
+                "is_deleted": 0,
+                "global_id": 78956,
+                "Photo": "80273693-9a3f-4a54-be1a-a5dd4b4f9f9b"
+            }
+        ],
+        "AdmArea": "Восточный административный округ",
+        "District": "район Северное Измайлово",
+        "Address": "11-я Парковая улица, дом 49",
+        "Email": "mgfso@mossport.ru",
+        "WebSite": "mgfso.mossport.ru",
+        "HelpPhone": "(499) 242-84-44",
+        "HelpPhoneExtension": "",
+        "WorkingHoursSummer": [
+            {
+                "is_deleted": 0,
+                "global_id": 2596885,
+                "DayOfWeek": "понедельник",
+                "Hours": "07:00-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2596886,
+                "DayOfWeek": "вторник",
+                "Hours": "07:00-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2596887,
+                "DayOfWeek": "среда",
+                "Hours": "07:00-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2596888,
+                "DayOfWeek": "четверг",
+                "Hours": "07:00-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2596889,
+                "DayOfWeek": "пятница",
+                "Hours": "07:00-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2596890,
+                "DayOfWeek": "суббота",
+                "Hours": "07:00-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2596891,
+                "DayOfWeek": "воскресенье",
+                "Hours": "07:00-23:00"
+            }
+        ],
+        "ClarificationOfWorkingHoursSummer": "",
+        "HasEquipmentRental": "нет",
+        "EquipmentRentalComments": "",
+        "HasTechService": "нет",
+        "TechServiceComments": "",
+        "HasDressingRoom": "да",
+        "HasEatery": "нет",
+        "HasToilet": "да",
+        "HasWifi": "да",
+        "HasCashMachine": "нет",
+        "HasFirstAidPost": "да",
+        "HasMusic": "да",
+        "UsagePeriodSummer": "01.01-31.12",
+        "DimensionsSummer": [
+            {
+                "is_deleted": 0,
+                "global_id": 370979,
+                "Square": 150,
+                "Length": 25,
+                "Width": 6,
+                "Depth": null
+            }
+        ],
+        "Lighting": "смешанное освещение",
+        "SurfaceTypeSummer": "специальное покрытие",
+        "Seats": 0,
+        "Paid": "платно",
+        "PaidComments": "",
+        "DisabilityFriendly": "не приспособлен",
+        "ServicesSummer": "общая физическая подготовка",
+        "geoData": {
+            "coordinates": [
+                37.803977087,
+                55.805684301
+            ],
+            "type": "Point"
+        },
+        "geodata_center": null
+    },
+    {
+        "is_deleted": 0,
+        "global_id": 2721744598,
+        "ObjectName": "Спортивный комплекс образовательного учреждения ЦОиС «Москва-98» на ул. Удальцова, д.40",
+        "NameSummer": "Бассейн плавательный 25-метровый крытый",
+        "PhotoSummer": [
+            {
+                "is_deleted": 0,
+                "global_id": 79119,
+                "Photo": "020d8221-197e-4f5e-a97d-be2cfd1a014a"
+            }
+        ],
+        "AdmArea": "Западный административный округ",
+        "District": "район Проспект Вернадского",
+        "Address": "улица Удальцова, дом 40",
+        "Email": "moscow98@mossport.ru",
+        "WebSite": "moscow98.mossport.ru",
+        "HelpPhone": "(499) 432-39-01",
+        "HelpPhoneExtension": "",
+        "WorkingHoursSummer": [
+            {
+                "is_deleted": 0,
+                "global_id": 2598026,
+                "DayOfWeek": "понедельник",
+                "Hours": "08:00-22:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2598027,
+                "DayOfWeek": "вторник",
+                "Hours": "08:00-22:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2598028,
+                "DayOfWeek": "среда",
+                "Hours": "08:00-22:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2598029,
+                "DayOfWeek": "четверг",
+                "Hours": "08:00-22:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2598030,
+                "DayOfWeek": "пятница",
+                "Hours": "08:00-22:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2598031,
+                "DayOfWeek": "суббота",
+                "Hours": "08:00-22:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2598032,
+                "DayOfWeek": "воскресенье",
+                "Hours": "08:00-22:00"
+            }
+        ],
+        "ClarificationOfWorkingHoursSummer": "",
+        "HasEquipmentRental": "нет",
+        "EquipmentRentalComments": "",
+        "HasTechService": "нет",
+        "TechServiceComments": "",
+        "HasDressingRoom": "да",
+        "HasEatery": "да",
+        "HasToilet": "да",
+        "HasWifi": "нет",
+        "HasCashMachine": "да",
+        "HasFirstAidPost": "да",
+        "HasMusic": "да",
+        "UsagePeriodSummer": "01.09-31.08",
+        "DimensionsSummer": [
+            {
+                "is_deleted": 0,
+                "global_id": 371142,
+                "Square": 625,
+                "Length": 25,
+                "Width": 25,
+                "Depth": 3
+            }
+        ],
+        "Lighting": "смешанное освещение",
+        "SurfaceTypeSummer": "специальное покрытие",
+        "Seats": 0,
+        "Paid": "платно",
+        "PaidComments": "",
+        "DisabilityFriendly": "частично приспособлен",
+        "ServicesSummer": "общая физическая подготовка",
+        "geoData": {
+            "coordinates": [
+                37.492706402,
+                55.683705638
+            ],
+            "type": "Point"
+        },
+        "geodata_center": null
+    },
+    {
+        "is_deleted": 0,
+        "global_id": 2721744879,
+        "ObjectName": "Спортивный комплекс «Надежда»",
+        "NameSummer": "Бассейн плавательный площадью более 60 кв. м крытый",
+        "PhotoSummer": [
+            {
+                "is_deleted": 0,
+                "global_id": 79176,
+                "Photo": "01cfbafa-432e-47fc-90f2-015cf0ac0dc2"
+            }
+        ],
+        "AdmArea": "Юго-Западный административный округ",
+        "District": "Ломоносовский район",
+        "Address": "улица Крупской, дом 1, корпус 1",
+        "Email": "mso@mos.ru",
+        "WebSite": "mso.mossport.ru",
+        "HelpPhone": "(495) 681-17-16",
+        "HelpPhoneExtension": "",
+        "WorkingHoursSummer": [
+            {
+                "is_deleted": 0,
+                "global_id": 2598425,
+                "DayOfWeek": "понедельник",
+                "Hours": "07:00-22:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2598426,
+                "DayOfWeek": "вторник",
+                "Hours": "07:00-22:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2598427,
+                "DayOfWeek": "среда",
+                "Hours": "07:00-22:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2598428,
+                "DayOfWeek": "четверг",
+                "Hours": "07:00-22:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2598429,
+                "DayOfWeek": "пятница",
+                "Hours": "07:00-22:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2598430,
+                "DayOfWeek": "суббота",
+                "Hours": "07:00-22:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2598431,
+                "DayOfWeek": "воскресенье",
+                "Hours": "07:00-22:00"
+            }
+        ],
+        "ClarificationOfWorkingHoursSummer": "",
+        "HasEquipmentRental": "нет",
+        "EquipmentRentalComments": "",
+        "HasTechService": "нет",
+        "TechServiceComments": "",
+        "HasDressingRoom": "да",
+        "HasEatery": "нет",
+        "HasToilet": "да",
+        "HasWifi": "да",
+        "HasCashMachine": "нет",
+        "HasFirstAidPost": "да",
+        "HasMusic": "нет",
+        "UsagePeriodSummer": "01.09-31.08",
+        "DimensionsSummer": [
+            {
+                "is_deleted": 0,
+                "global_id": 371199,
+                "Square": 101.9,
+                "Length": 16.7,
+                "Width": 6.1,
+                "Depth": 1.5
+            }
+        ],
+        "Lighting": "смешанное освещение",
+        "SurfaceTypeSummer": "специальное покрытие",
+        "Seats": 0,
+        "Paid": "платно",
+        "PaidComments": "",
+        "DisabilityFriendly": "приспособлен для всех групп инвалидов",
+        "ServicesSummer": "общая физическая подготовка",
+        "geoData": {
+            "coordinates": [
+                37.529337355,
+                55.680444783
+            ],
+            "type": "Point"
+        },
+        "geodata_center": null
+    },
+    {
+        "is_deleted": 0,
+        "global_id": 2721744881,
+        "ObjectName": "Спортивный комплекс «Олимпийская деревня-80»",
+        "NameSummer": "Бассейн плавательный 25-метровый крытый",
+        "PhotoSummer": [
+            {
+                "is_deleted": 0,
+                "global_id": 79178,
+                "Photo": "b42adc29-8334-4261-81aa-4d6df4aa3f37"
+            }
+        ],
+        "AdmArea": "Западный административный округ",
+        "District": "район Тропарёво-Никулино",
+        "Address": "улица Мичуринский Проспект, Олимпийская Деревня, дом 2",
+        "Email": "skod80@mossport.ru",
+        "WebSite": "skod80.mossport.ru",
+        "HelpPhone": "(495) 437-54-03",
+        "HelpPhoneExtension": "",
+        "WorkingHoursSummer": [
+            {
+                "is_deleted": 0,
+                "global_id": 2598439,
+                "DayOfWeek": "понедельник",
+                "Hours": "07:00-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2598440,
+                "DayOfWeek": "вторник",
+                "Hours": "07:00-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2598441,
+                "DayOfWeek": "среда",
+                "Hours": "07:00-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2598442,
+                "DayOfWeek": "четверг",
+                "Hours": "07:00-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2598443,
+                "DayOfWeek": "пятница",
+                "Hours": "07:00-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2598444,
+                "DayOfWeek": "суббота",
+                "Hours": "07:00-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2598445,
+                "DayOfWeek": "воскресенье",
+                "Hours": "07:00-23:00"
+            }
+        ],
+        "ClarificationOfWorkingHoursSummer": "",
+        "HasEquipmentRental": "нет",
+        "EquipmentRentalComments": "",
+        "HasTechService": "нет",
+        "TechServiceComments": "",
+        "HasDressingRoom": "да",
+        "HasEatery": "да",
+        "HasToilet": "да",
+        "HasWifi": "да",
+        "HasCashMachine": "да",
+        "HasFirstAidPost": "да",
+        "HasMusic": "да",
+        "UsagePeriodSummer": "01.09-31.08",
+        "DimensionsSummer": [
+            {
+                "is_deleted": 0,
+                "global_id": 371201,
+                "Square": 625,
+                "Length": 25,
+                "Width": 25,
+                "Depth": 4
+            }
+        ],
+        "Lighting": "смешанное освещение",
+        "SurfaceTypeSummer": "специальное покрытие",
+        "Seats": 150,
+        "Paid": "бесплатно",
+        "PaidComments": "",
+        "DisabilityFriendly": "частично приспособлен",
+        "ServicesSummer": "общая физическая подготовка",
+        "geoData": {
+            "coordinates": [
+                37.472882795,
+                55.675951912
+            ],
+            "type": "Point"
+        },
+        "geodata_center": null
+    },
+    {
+        "is_deleted": 0,
+        "global_id": 2721744884,
+        "ObjectName": "Спортивный комплекс «Олимпийская деревня-80»",
+        "NameSummer": "Бассейн плавательный площадью более 60 кв.м крытый №1",
+        "PhotoSummer": [
+            {
+                "is_deleted": 0,
+                "global_id": 79181,
+                "Photo": "aeb9d057-2d60-41ea-a3af-40ed6f07fcc4"
+            }
+        ],
+        "AdmArea": "Западный административный округ",
+        "District": "район Тропарёво-Никулино",
+        "Address": "улица Мичуринский Проспект, Олимпийская Деревня, дом 2",
+        "Email": "skod80@mossport.ru",
+        "WebSite": "skod80.mossport.ru",
+        "HelpPhone": "(495) 437-54-03",
+        "HelpPhoneExtension": "",
+        "WorkingHoursSummer": [
+            {
+                "is_deleted": 0,
+                "global_id": 2598460,
+                "DayOfWeek": "понедельник",
+                "Hours": "07:00-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2598461,
+                "DayOfWeek": "вторник",
+                "Hours": "07:00-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2598462,
+                "DayOfWeek": "среда",
+                "Hours": "07:00-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2598463,
+                "DayOfWeek": "четверг",
+                "Hours": "07:00-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2598464,
+                "DayOfWeek": "пятница",
+                "Hours": "07:00-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2598465,
+                "DayOfWeek": "суббота",
+                "Hours": "07:00-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2598466,
+                "DayOfWeek": "воскресенье",
+                "Hours": "07:00-23:00"
+            }
+        ],
+        "ClarificationOfWorkingHoursSummer": "",
+        "HasEquipmentRental": "нет",
+        "EquipmentRentalComments": "",
+        "HasTechService": "нет",
+        "TechServiceComments": "",
+        "HasDressingRoom": "да",
+        "HasEatery": "да",
+        "HasToilet": "да",
+        "HasWifi": "да",
+        "HasCashMachine": "да",
+        "HasFirstAidPost": "да",
+        "HasMusic": "да",
+        "UsagePeriodSummer": "01.09-31.08",
+        "DimensionsSummer": [
+            {
+                "is_deleted": 0,
+                "global_id": 371204,
+                "Square": 198.9,
+                "Length": 17,
+                "Width": 11.7,
+                "Depth": 1.7
+            }
+        ],
+        "Lighting": "смешанное освещение",
+        "SurfaceTypeSummer": "специальное покрытие",
+        "Seats": 60,
+        "Paid": "бесплатно",
+        "PaidComments": "",
+        "DisabilityFriendly": "не приспособлен",
+        "ServicesSummer": "общая физическая подготовка",
+        "geoData": {
+            "coordinates": [
+                37.473699528,
+                55.675500847
+            ],
+            "type": "Point"
+        },
+        "geodata_center": null
+    },
+    {
+        "is_deleted": 0,
+        "global_id": 2721745283,
+        "ObjectName": "Дворец спорта «Москвич»",
+        "NameSummer": "Бассейн плавательный 50-метровый крытый",
+        "PhotoSummer": [
+            {
+                "is_deleted": 0,
+                "global_id": 79279,
+                "Photo": "b679acd4-ac82-4e54-9e48-bdbf2976bfac"
+            }
+        ],
+        "AdmArea": "Юго-Восточный административный округ",
+        "District": "район Текстильщики",
+        "Address": "Люблинская улица, дом 15/46, строение 7",
+        "Email": "moskvich@mossport.ru",
+        "WebSite": "moskvich.mossport.ru",
+        "HelpPhone": "(499) 179-31-23",
+        "HelpPhoneExtension": "",
+        "WorkingHoursSummer": [
+            {
+                "is_deleted": 0,
+                "global_id": 2599146,
+                "DayOfWeek": "понедельник",
+                "Hours": "06:45-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2599147,
+                "DayOfWeek": "вторник",
+                "Hours": "06:45-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2599148,
+                "DayOfWeek": "среда",
+                "Hours": "06:45-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2599149,
+                "DayOfWeek": "четверг",
+                "Hours": "06:45-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2599150,
+                "DayOfWeek": "пятница",
+                "Hours": "06:45-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2599151,
+                "DayOfWeek": "суббота",
+                "Hours": "06:45-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2599152,
+                "DayOfWeek": "воскресенье",
+                "Hours": "06:45-23:00"
+            }
+        ],
+        "ClarificationOfWorkingHoursSummer": "",
+        "HasEquipmentRental": "нет",
+        "EquipmentRentalComments": "",
+        "HasTechService": "нет",
+        "TechServiceComments": "",
+        "HasDressingRoom": "да",
+        "HasEatery": "да",
+        "HasToilet": "да",
+        "HasWifi": "да",
+        "HasCashMachine": "да",
+        "HasFirstAidPost": "да",
+        "HasMusic": "да",
+        "UsagePeriodSummer": "01.08-30.06",
+        "DimensionsSummer": [
+            {
+                "is_deleted": 0,
+                "global_id": 371302,
+                "Square": 1000,
+                "Length": 50,
+                "Width": 20,
+                "Depth": null
+            }
+        ],
+        "Lighting": "смешанное освещение",
+        "SurfaceTypeSummer": "специальное покрытие",
+        "Seats": 0,
+        "Paid": "платно",
+        "PaidComments": "В соответствии с прейскурантом",
+        "DisabilityFriendly": "частично приспособлен",
+        "ServicesSummer": "общая физическая подготовка",
+        "geoData": {
+            "coordinates": [
+                37.731626632,
+                55.707028313
+            ],
+            "type": "Point"
+        },
+        "geodata_center": null
+    },
+    {
+        "is_deleted": 0,
+        "global_id": 2721746028,
+        "ObjectName": "Многофункциональный спортивный комплекс «Янтарь»",
+        "NameSummer": "Бассейн плавательный крытый",
+        "PhotoSummer": [
+            {
+                "is_deleted": 0,
+                "global_id": 79445,
+                "Photo": "4ae8da8d-cf82-4195-bc42-c157e26e1566"
+            }
+        ],
+        "AdmArea": "Северо-Западный административный округ",
+        "District": "район Строгино",
+        "Address": "улица Маршала Катукова, дом 22",
+        "Email": "yantar@mossport.ru",
+        "WebSite": "yantar.mossport.ru",
+        "HelpPhone": "(499) 252-98-08",
+        "HelpPhoneExtension": "",
+        "WorkingHoursSummer": [
+            {
+                "is_deleted": 0,
+                "global_id": 2600308,
+                "DayOfWeek": "понедельник",
+                "Hours": "06:30-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2600309,
+                "DayOfWeek": "вторник",
+                "Hours": "06:30-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2600310,
+                "DayOfWeek": "среда",
+                "Hours": "06:30-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2600311,
+                "DayOfWeek": "четверг",
+                "Hours": "06:30-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2600312,
+                "DayOfWeek": "пятница",
+                "Hours": "06:30-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2600313,
+                "DayOfWeek": "суббота",
+                "Hours": "06:30-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2600314,
+                "DayOfWeek": "воскресенье",
+                "Hours": "06:30-23:00"
+            }
+        ],
+        "ClarificationOfWorkingHoursSummer": "",
+        "HasEquipmentRental": "нет",
+        "EquipmentRentalComments": "",
+        "HasTechService": "да",
+        "TechServiceComments": "Мастерская по ремонту и заточке коньков. Стоимость услуг установлена прейскурантом.",
+        "HasDressingRoom": "да",
+        "HasEatery": "да",
+        "HasToilet": "да",
+        "HasWifi": "да",
+        "HasCashMachine": "да",
+        "HasFirstAidPost": "да",
+        "HasMusic": "да",
+        "UsagePeriodSummer": "01.09-31.08",
+        "DimensionsSummer": [
+            {
+                "is_deleted": 0,
+                "global_id": 371468,
+                "Square": 128,
+                "Length": 16,
+                "Width": 8,
+                "Depth": 0.9
+            }
+        ],
+        "Lighting": "смешанное освещение",
+        "SurfaceTypeSummer": "специальное покрытие",
+        "Seats": 0,
+        "Paid": "платно",
+        "PaidComments": "прейскурант на сайте организации",
+        "DisabilityFriendly": "приспособлен для лиц с нарушением ОДА",
+        "ServicesSummer": "общая физическая подготовка",
+        "geoData": {
+            "coordinates": [
+                37.411548623,
+                55.804075842
+            ],
+            "type": "Point"
+        },
+        "geodata_center": null
+    },
+    {
+        "is_deleted": 0,
+        "global_id": 2721746030,
+        "ObjectName": "Многофункциональный спортивный комплекс «Янтарь»",
+        "NameSummer": "Бассейн плавательный 25-метровый крытый",
+        "PhotoSummer": [
+            {
+                "is_deleted": 0,
+                "global_id": 79447,
+                "Photo": "e3857533-2e99-40b8-80a1-90228f4b5e91"
+            }
+        ],
+        "AdmArea": "Северо-Западный административный округ",
+        "District": "район Строгино",
+        "Address": "улица Маршала Катукова, дом 22",
+        "Email": "yantar@mossport.ru",
+        "WebSite": "yantar.mossport.ru",
+        "HelpPhone": "(499) 252-98-08",
+        "HelpPhoneExtension": "",
+        "WorkingHoursSummer": [
+            {
+                "is_deleted": 0,
+                "global_id": 2600322,
+                "DayOfWeek": "понедельник",
+                "Hours": "06:30-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2600323,
+                "DayOfWeek": "вторник",
+                "Hours": "06:30-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2600324,
+                "DayOfWeek": "среда",
+                "Hours": "06:30-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2600325,
+                "DayOfWeek": "четверг",
+                "Hours": "06:30-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2600326,
+                "DayOfWeek": "пятница",
+                "Hours": "06:30-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2600327,
+                "DayOfWeek": "суббота",
+                "Hours": "06:30-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2600328,
+                "DayOfWeek": "воскресенье",
+                "Hours": "06:30-23:00"
+            }
+        ],
+        "ClarificationOfWorkingHoursSummer": "",
+        "HasEquipmentRental": "нет",
+        "EquipmentRentalComments": "",
+        "HasTechService": "да",
+        "TechServiceComments": "Мастерская по ремонту и заточке коньков. Стоимость услуг установлена прейскурантом.",
+        "HasDressingRoom": "да",
+        "HasEatery": "да",
+        "HasToilet": "да",
+        "HasWifi": "да",
+        "HasCashMachine": "да",
+        "HasFirstAidPost": "да",
+        "HasMusic": "да",
+        "UsagePeriodSummer": "01.09-31.08",
+        "DimensionsSummer": [
+            {
+                "is_deleted": 0,
+                "global_id": 371470,
+                "Square": 500,
+                "Length": 25,
+                "Width": 20,
+                "Depth": 3.5
+            }
+        ],
+        "Lighting": "смешанное освещение",
+        "SurfaceTypeSummer": "специальное покрытие",
+        "Seats": 300,
+        "Paid": "платно",
+        "PaidComments": "прейскурант цент на сайте организации",
+        "DisabilityFriendly": "приспособлен для лиц с нарушением ОДА",
+        "ServicesSummer": "общая физическая подготовка",
+        "geoData": {
+            "coordinates": [
+                37.412085065,
+                55.804746577
+            ],
+            "type": "Point"
+        },
+        "geodata_center": null
+    },
+    {
+        "is_deleted": 0,
+        "global_id": 2721748088,
+        "ObjectName": "Физкультурно-оздоровительный комплекс с бассейном «Спортивно-адаптивная школа»",
+        "NameSummer": "Бассейн плавательный 25-метровый крытый",
+        "PhotoSummer": [
+            {
+                "is_deleted": 0,
+                "global_id": 79713,
+                "Photo": "e2c11194-3cb2-4d34-a8a8-0842bf11d7c4"
+            }
+        ],
+        "AdmArea": "Северо-Восточный административный округ",
+        "District": "район Бибирево",
+        "Address": "улица Корнейчука, дом 28, корпус 2",
+        "Email": "sash@mossport.ru",
+        "WebSite": "sash.mossport.ru",
+        "HelpPhone": "(495) 707-05-83",
+        "HelpPhoneExtension": "",
+        "WorkingHoursSummer": [
+            {
+                "is_deleted": 0,
+                "global_id": 2602184,
+                "DayOfWeek": "понедельник",
+                "Hours": "07:00-22:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2602185,
+                "DayOfWeek": "вторник",
+                "Hours": "07:00-22:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2602186,
+                "DayOfWeek": "среда",
+                "Hours": "07:00-22:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2602187,
+                "DayOfWeek": "четверг",
+                "Hours": "07:00-22:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2602188,
+                "DayOfWeek": "пятница",
+                "Hours": "07:00-22:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2602189,
+                "DayOfWeek": "суббота",
+                "Hours": "07:00-22:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2602190,
+                "DayOfWeek": "воскресенье",
+                "Hours": "07:00-22:00"
+            }
+        ],
+        "ClarificationOfWorkingHoursSummer": "",
+        "HasEquipmentRental": "нет",
+        "EquipmentRentalComments": "",
+        "HasTechService": "нет",
+        "TechServiceComments": "",
+        "HasDressingRoom": "да",
+        "HasEatery": "да",
+        "HasToilet": "да",
+        "HasWifi": "да",
+        "HasCashMachine": "нет",
+        "HasFirstAidPost": "да",
+        "HasMusic": "да",
+        "UsagePeriodSummer": "01.01-31.12",
+        "DimensionsSummer": [
+            {
+                "is_deleted": 0,
+                "global_id": 371736,
+                "Square": 212.5,
+                "Length": 25,
+                "Width": 8.5,
+                "Depth": null
+            }
+        ],
+        "Lighting": "смешанное освещение",
+        "SurfaceTypeSummer": "специальное покрытие",
+        "Seats": 0,
+        "Paid": "платно",
+        "PaidComments": "прейскурант цен указан на сайте организации",
+        "DisabilityFriendly": "приспособлен для всех групп инвалидов",
+        "ServicesSummer": "общая физическая подготовка",
+        "geoData": {
+            "coordinates": [
+                37.617800183,
+                55.898884162
+            ],
+            "type": "Point"
+        },
+        "geodata_center": null
+    },
+    {
+        "is_deleted": 0,
+        "global_id": 2721748361,
+        "ObjectName": "Спортивный комплекс образовательного учреждения",
+        "NameSummer": "Бассейн плавательный 25-метровый крытый",
+        "PhotoSummer": [
+            {
+                "is_deleted": 0,
+                "global_id": 79774,
+                "Photo": "d1268fc1-67dc-4773-9f96-cad6b8e6bcfb"
+            }
+        ],
+        "AdmArea": "Центральный административный округ",
+        "District": "Тверской район",
+        "Address": "улица Александра Невского, дом 4",
+        "Email": "cdt@edu.mos.ru",
+        "WebSite": "cdt.mskobr.ru",
+        "HelpPhone": "(499) 251-90-21",
+        "HelpPhoneExtension": "",
+        "WorkingHoursSummer": [
+            {
+                "is_deleted": 0,
+                "global_id": 2602611,
+                "DayOfWeek": "понедельник",
+                "Hours": "07:00-22:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2602612,
+                "DayOfWeek": "вторник",
+                "Hours": "07:00-22:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2602613,
+                "DayOfWeek": "среда",
+                "Hours": "07:00-22:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2602614,
+                "DayOfWeek": "четверг",
+                "Hours": "07:00-22:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2602615,
+                "DayOfWeek": "пятница",
+                "Hours": "07:00-22:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2602616,
+                "DayOfWeek": "суббота",
+                "Hours": "07:00-22:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2602617,
+                "DayOfWeek": "воскресенье",
+                "Hours": "07:00-22:00"
+            }
+        ],
+        "ClarificationOfWorkingHoursSummer": "",
+        "HasEquipmentRental": "нет",
+        "EquipmentRentalComments": "",
+        "HasTechService": "нет",
+        "TechServiceComments": "",
+        "HasDressingRoom": "да",
+        "HasEatery": "да",
+        "HasToilet": "да",
+        "HasWifi": "да",
+        "HasCashMachine": "нет",
+        "HasFirstAidPost": "да",
+        "HasMusic": "да",
+        "UsagePeriodSummer": "01.09-31.08",
+        "DimensionsSummer": [
+            {
+                "is_deleted": 0,
+                "global_id": 371797,
+                "Square": 300,
+                "Length": 25,
+                "Width": 12,
+                "Depth": 4.5
+            }
+        ],
+        "Lighting": "освещение газоразрядными лампами",
+        "SurfaceTypeSummer": "специальное покрытие",
+        "Seats": 0,
+        "Paid": "платно",
+        "PaidComments": "для сторонних посетителей",
+        "DisabilityFriendly": "не приспособлен",
+        "ServicesSummer": "общая физическая подготовка",
+        "geoData": {
+            "coordinates": [
+                37.593208158,
+                55.77691506
+            ],
+            "type": "Point"
+        },
+        "geodata_center": null
+    },
+    {
+        "is_deleted": 0,
+        "global_id": 2721748792,
+        "ObjectName": "Спортивный комплекс «Олимпийская деревня-80»",
+        "NameSummer": "Бассейн плавательный площадью более 60 кв.м крытый №2",
+        "PhotoSummer": [
+            {
+                "is_deleted": 0,
+                "global_id": 79875,
+                "Photo": "c5b49a6c-71a5-405b-b8bd-9e949b7342aa"
+            }
+        ],
+        "AdmArea": "Западный административный округ",
+        "District": "район Тропарёво-Никулино",
+        "Address": "улица Мичуринский Проспект, Олимпийская Деревня, дом 2",
+        "Email": "skod80@mossport.ru",
+        "WebSite": "skod80.mossport.ru",
+        "HelpPhone": "(495) 437-54-03",
+        "HelpPhoneExtension": "",
+        "WorkingHoursSummer": [
+            {
+                "is_deleted": 0,
+                "global_id": 2603318,
+                "DayOfWeek": "понедельник",
+                "Hours": "07:00-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2603319,
+                "DayOfWeek": "вторник",
+                "Hours": "07:00-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2603320,
+                "DayOfWeek": "среда",
+                "Hours": "07:00-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2603321,
+                "DayOfWeek": "четверг",
+                "Hours": "07:00-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2603322,
+                "DayOfWeek": "пятница",
+                "Hours": "07:00-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2603323,
+                "DayOfWeek": "суббота",
+                "Hours": "07:00-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2603324,
+                "DayOfWeek": "воскресенье",
+                "Hours": "07:00-23:00"
+            }
+        ],
+        "ClarificationOfWorkingHoursSummer": "",
+        "HasEquipmentRental": "нет",
+        "EquipmentRentalComments": "",
+        "HasTechService": "нет",
+        "TechServiceComments": "",
+        "HasDressingRoom": "да",
+        "HasEatery": "да",
+        "HasToilet": "да",
+        "HasWifi": "да",
+        "HasCashMachine": "да",
+        "HasFirstAidPost": "да",
+        "HasMusic": "да",
+        "UsagePeriodSummer": "01.09-31.08",
+        "DimensionsSummer": [
+            {
+                "is_deleted": 0,
+                "global_id": 371898,
+                "Square": 198.9,
+                "Length": 17,
+                "Width": 11.7,
+                "Depth": 1.7
+            }
+        ],
+        "Lighting": "смешанное освещение",
+        "SurfaceTypeSummer": "специальное покрытие",
+        "Seats": 60,
+        "Paid": "бесплатно",
+        "PaidComments": "",
+        "DisabilityFriendly": "не приспособлен",
+        "ServicesSummer": "общая физическая подготовка",
+        "geoData": {
+            "coordinates": [
+                37.473867166,
+                55.675586418
+            ],
+            "type": "Point"
+        },
+        "geodata_center": null
+    },
+    {
+        "is_deleted": 0,
+        "global_id": 2721749489,
+        "ObjectName": "Бассейн плавательный Конноспортивный комплекс «Битца»",
+        "NameSummer": "Бассейн плавательный 25-метровый крытый",
+        "PhotoSummer": [
+            {
+                "is_deleted": 0,
+                "global_id": 79993,
+                "Photo": "a516a099-f4dc-4d27-9bfc-f3c2541cfb95"
+            }
+        ],
+        "AdmArea": "Южный административный округ",
+        "District": "район Чертаново Северное",
+        "Address": "Балаклавский проспект, дом 33, строение 2",
+        "Email": "bitsa@mossport.ru",
+        "WebSite": "bitsa.mossport.ru",
+        "HelpPhone": "(495) 955-93-93",
+        "HelpPhoneExtension": "",
+        "WorkingHoursSummer": [
+            {
+                "is_deleted": 0,
+                "global_id": 2604144,
+                "DayOfWeek": "понедельник",
+                "Hours": "07:00-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2604145,
+                "DayOfWeek": "вторник",
+                "Hours": "07:00-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2604146,
+                "DayOfWeek": "среда",
+                "Hours": "07:00-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2604147,
+                "DayOfWeek": "четверг",
+                "Hours": "07:00-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2604148,
+                "DayOfWeek": "пятница",
+                "Hours": "07:00-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2604149,
+                "DayOfWeek": "суббота",
+                "Hours": "07:00-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2604150,
+                "DayOfWeek": "воскресенье",
+                "Hours": "07:00-23:00"
+            }
+        ],
+        "ClarificationOfWorkingHoursSummer": "",
+        "HasEquipmentRental": "нет",
+        "EquipmentRentalComments": "",
+        "HasTechService": "нет",
+        "TechServiceComments": "",
+        "HasDressingRoom": "да",
+        "HasEatery": "да",
+        "HasToilet": "да",
+        "HasWifi": "да",
+        "HasCashMachine": "да",
+        "HasFirstAidPost": "да",
+        "HasMusic": "да",
+        "UsagePeriodSummer": "01.09-31.08",
+        "DimensionsSummer": [
+            {
+                "is_deleted": 0,
+                "global_id": 372016,
+                "Square": 330,
+                "Length": 25,
+                "Width": 13.2,
+                "Depth": 1.65
+            }
+        ],
+        "Lighting": "смешанное освещение",
+        "SurfaceTypeSummer": "специальное покрытие",
+        "Seats": 0,
+        "Paid": "платно",
+        "PaidComments": "",
+        "DisabilityFriendly": null,
+        "ServicesSummer": "общая физическая подготовка",
+        "geoData": {
+            "coordinates": [
+                37.579978926,
+                55.642831028
+            ],
+            "type": "Point"
+        },
+        "geodata_center": null
+    },
+    {
+        "is_deleted": 0,
+        "global_id": 2721750372,
+        "ObjectName": "Спортивный комплекс «Косино», д.8А",
+        "NameSummer": "Бассейн плавательный площадью более 60 кв.м крытый",
+        "PhotoSummer": [
+            {
+                "is_deleted": 0,
+                "global_id": 80083,
+                "Photo": "3c136ced-00da-4ab4-8b85-24ae07bf2510"
+            }
+        ],
+        "AdmArea": "Восточный административный округ",
+        "District": "район Косино-Ухтомский",
+        "Address": "улица Николая Старостина, дом 8А",
+        "Email": "msa@mossport.ru",
+        "WebSite": "msa.mossport.ru",
+        "HelpPhone": "(495) 513-12-90",
+        "HelpPhoneExtension": "",
+        "WorkingHoursSummer": [
+            {
+                "is_deleted": 0,
+                "global_id": 2604774,
+                "DayOfWeek": "понедельник",
+                "Hours": "07:00-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2604775,
+                "DayOfWeek": "вторник",
+                "Hours": "07:00-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2604776,
+                "DayOfWeek": "среда",
+                "Hours": "07:00-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2604777,
+                "DayOfWeek": "четверг",
+                "Hours": "07:00-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2604778,
+                "DayOfWeek": "пятница",
+                "Hours": "07:00-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2604779,
+                "DayOfWeek": "суббота",
+                "Hours": "07:00-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2604780,
+                "DayOfWeek": "воскресенье",
+                "Hours": "07:00-23:00"
+            }
+        ],
+        "ClarificationOfWorkingHoursSummer": "",
+        "HasEquipmentRental": "нет",
+        "EquipmentRentalComments": "",
+        "HasTechService": "нет",
+        "TechServiceComments": "",
+        "HasDressingRoom": "да",
+        "HasEatery": "нет",
+        "HasToilet": "да",
+        "HasWifi": "нет",
+        "HasCashMachine": "нет",
+        "HasFirstAidPost": "да",
+        "HasMusic": "да",
+        "UsagePeriodSummer": "01.09-31.08",
+        "DimensionsSummer": [
+            {
+                "is_deleted": 0,
+                "global_id": 372106,
+                "Square": 134.3,
+                "Length": 16.7,
+                "Width": 8.04,
+                "Depth": 1.1
+            }
+        ],
+        "Lighting": "смешанное освещение",
+        "SurfaceTypeSummer": "специальное покрытие",
+        "Seats": 0,
+        "Paid": "платно",
+        "PaidComments": "",
+        "DisabilityFriendly": "приспособлен для всех групп инвалидов",
+        "ServicesSummer": "общая физическая подготовка",
+        "geoData": {
+            "coordinates": [
+                37.85356241,
+                55.729669696
+            ],
+            "type": "Point"
+        },
+        "geodata_center": null
+    },
+    {
+        "is_deleted": 0,
+        "global_id": 2721751003,
+        "ObjectName": "Спортивный комплекс образовательного учреждения",
+        "NameSummer": "Бассейн плавательный 25-метровый крытый",
+        "PhotoSummer": [
+            {
+                "is_deleted": 0,
+                "global_id": 80167,
+                "Photo": "f15bddfa-8d9a-4ffa-ae05-fcda5c21ccb0"
+            }
+        ],
+        "AdmArea": "Юго-Восточный административный округ",
+        "District": "район Текстильщики",
+        "Address": "улица Шкулёва, дом 2, строение 2",
+        "Email": "dpgaidar@edu.mos.ru",
+        "WebSite": "dpgaidar.mskobr.ru",
+        "HelpPhone": "(499) 179-65-11",
+        "HelpPhoneExtension": "",
+        "WorkingHoursSummer": [
+            {
+                "is_deleted": 0,
+                "global_id": 2605362,
+                "DayOfWeek": "понедельник",
+                "Hours": "08:00-21:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2605363,
+                "DayOfWeek": "вторник",
+                "Hours": "08:00-21:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2605364,
+                "DayOfWeek": "среда",
+                "Hours": "08:00-21:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2605365,
+                "DayOfWeek": "четверг",
+                "Hours": "08:00-21:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2605366,
+                "DayOfWeek": "пятница",
+                "Hours": "08:00-21:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2605367,
+                "DayOfWeek": "суббота",
+                "Hours": "08:00-21:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2605368,
+                "DayOfWeek": "воскресенье",
+                "Hours": "08:00-21:00"
+            }
+        ],
+        "ClarificationOfWorkingHoursSummer": "",
+        "HasEquipmentRental": "нет",
+        "EquipmentRentalComments": "",
+        "HasTechService": "нет",
+        "TechServiceComments": "",
+        "HasDressingRoom": "да",
+        "HasEatery": "да",
+        "HasToilet": "да",
+        "HasWifi": "да",
+        "HasCashMachine": "нет",
+        "HasFirstAidPost": "да",
+        "HasMusic": "нет",
+        "UsagePeriodSummer": "01.09-31.08",
+        "DimensionsSummer": [
+            {
+                "is_deleted": 0,
+                "global_id": 372190,
+                "Square": 300,
+                "Length": 25,
+                "Width": 12,
+                "Depth": 4
+            }
+        ],
+        "Lighting": "смешанное освещение",
+        "SurfaceTypeSummer": "специальное покрытие",
+        "Seats": 30,
+        "Paid": "платно",
+        "PaidComments": "В зависимости от прейскуранта",
+        "DisabilityFriendly": "не приспособлен",
+        "ServicesSummer": "общая физическая подготовка",
+        "geoData": {
+            "coordinates": [
+                37.742890047,
+                55.691446202
+            ],
+            "type": "Point"
+        },
+        "geodata_center": null
+    },
+    {
+        "is_deleted": 0,
+        "global_id": 2721751368,
+        "ObjectName": "Спортивный комплекс «Баланс»",
+        "NameSummer": "Бассейн плавательный 25-метровый крытый",
+        "PhotoSummer": [
+            {
+                "is_deleted": 0,
+                "global_id": 80235,
+                "Photo": "76163c49-296a-4f1e-8f81-42f0fb59a49f"
+            }
+        ],
+        "AdmArea": "Северо-Восточный административный округ",
+        "District": "район Бибирево",
+        "Address": "Алтуфьевское шоссе, дом 100",
+        "Email": "",
+        "WebSite": "gbukentavr.ru/balance",
+        "HelpPhone": "(499) 909-18-41",
+        "HelpPhoneExtension": "",
+        "WorkingHoursSummer": [
+            {
+                "is_deleted": 0,
+                "global_id": 2605838,
+                "DayOfWeek": "понедельник",
+                "Hours": "07:00-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2605839,
+                "DayOfWeek": "вторник",
+                "Hours": "07:00-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2605840,
+                "DayOfWeek": "среда",
+                "Hours": "07:00-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2605841,
+                "DayOfWeek": "четверг",
+                "Hours": "07:00-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2605842,
+                "DayOfWeek": "пятница",
+                "Hours": "07:00-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2605843,
+                "DayOfWeek": "суббота",
+                "Hours": "07:00-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2605844,
+                "DayOfWeek": "воскресенье",
+                "Hours": "07:00-23:00"
+            }
+        ],
+        "ClarificationOfWorkingHoursSummer": "",
+        "HasEquipmentRental": "нет",
+        "EquipmentRentalComments": "",
+        "HasTechService": "нет",
+        "TechServiceComments": "",
+        "HasDressingRoom": "да",
+        "HasEatery": "да",
+        "HasToilet": "да",
+        "HasWifi": "да",
+        "HasCashMachine": "нет",
+        "HasFirstAidPost": "да",
+        "HasMusic": "да",
+        "UsagePeriodSummer": "01.01-31.12",
+        "DimensionsSummer": [
+            {
+                "is_deleted": 0,
+                "global_id": 372258,
+                "Square": 702,
+                "Length": 39,
+                "Width": 18,
+                "Depth": 1.8
+            }
+        ],
+        "Lighting": "смешанное освещение",
+        "SurfaceTypeSummer": "специальное покрытие",
+        "Seats": 0,
+        "Paid": "платно",
+        "PaidComments": "",
+        "DisabilityFriendly": null,
+        "ServicesSummer": "общая физическая подготовка",
+        "geoData": {
+            "coordinates": [
+                37.58908195,
+                55.904772173
+            ],
+            "type": "Point"
+        },
+        "geodata_center": null
+    },
+    {
+        "is_deleted": 0,
+        "global_id": 2721752365,
+        "ObjectName": "Спортивный комплекс «Алтуфьевский»",
+        "NameSummer": "Бассейн плавательный 25-метровый крытый",
+        "PhotoSummer": [
+            {
+                "is_deleted": 0,
+                "global_id": 80460,
+                "Photo": "58a9071e-fb94-41ea-b676-561874294ec5"
+            }
+        ],
+        "AdmArea": "Северо-Восточный административный округ",
+        "District": "Алтуфьевский район",
+        "Address": "Инженерная улица, дом 5, корпус 1",
+        "Email": "sever@mossport.ru",
+        "WebSite": "sever.mossport.ru",
+        "HelpPhone": "(499) 900-90-18",
+        "HelpPhoneExtension": "",
+        "WorkingHoursSummer": [
+            {
+                "is_deleted": 0,
+                "global_id": 2607413,
+                "DayOfWeek": "понедельник",
+                "Hours": "07:30-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2607414,
+                "DayOfWeek": "вторник",
+                "Hours": "07:30-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2607415,
+                "DayOfWeek": "среда",
+                "Hours": "07:30-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2607416,
+                "DayOfWeek": "четверг",
+                "Hours": "07:30-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2607417,
+                "DayOfWeek": "пятница",
+                "Hours": "07:30-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2607418,
+                "DayOfWeek": "суббота",
+                "Hours": "10:00-21:15"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2607419,
+                "DayOfWeek": "воскресенье",
+                "Hours": "10:00-21:15"
+            }
+        ],
+        "ClarificationOfWorkingHoursSummer": "",
+        "HasEquipmentRental": "нет",
+        "EquipmentRentalComments": "",
+        "HasTechService": "нет",
+        "TechServiceComments": "",
+        "HasDressingRoom": "да",
+        "HasEatery": "нет",
+        "HasToilet": "да",
+        "HasWifi": "да",
+        "HasCashMachine": "нет",
+        "HasFirstAidPost": "да",
+        "HasMusic": "да",
+        "UsagePeriodSummer": "01.01-31.12",
+        "DimensionsSummer": [
+            {
+                "is_deleted": 0,
+                "global_id": 372483,
+                "Square": 350,
+                "Length": 25,
+                "Width": 14,
+                "Depth": 1.8
+            }
+        ],
+        "Lighting": "смешанное освещение",
+        "SurfaceTypeSummer": "специальное покрытие",
+        "Seats": 0,
+        "Paid": "платно",
+        "PaidComments": "",
+        "DisabilityFriendly": "частично приспособлен",
+        "ServicesSummer": "общая физическая подготовка",
+        "geoData": {
+            "coordinates": [
+                37.578416167,
+                55.879365655
+            ],
+            "type": "Point"
+        },
+        "geodata_center": null
+    },
+    {
+        "is_deleted": 0,
+        "global_id": 2721752413,
+        "ObjectName": "Олимпийский центр синхронного плавания",
+        "NameSummer": "Бассейн плавательный 25-метровый крытый №1, «Синхронного плавания»",
+        "PhotoSummer": [
+            {
+                "is_deleted": 0,
+                "global_id": 80475,
+                "Photo": "6a935b96-3666-4b9c-b933-4783d6e86555"
+            }
+        ],
+        "AdmArea": "Южный административный округ",
+        "District": "Даниловский район",
+        "Address": "Автозаводская улица, дом 23А, корпус 4",
+        "Email": "mso@mos.ru",
+        "WebSite": "mso.mossport.ru",
+        "HelpPhone": "(495) 681-17-16",
+        "HelpPhoneExtension": "",
+        "WorkingHoursSummer": [
+            {
+                "is_deleted": 0,
+                "global_id": 2607518,
+                "DayOfWeek": "понедельник",
+                "Hours": "07:00-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2607519,
+                "DayOfWeek": "вторник",
+                "Hours": "07:00-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2607520,
+                "DayOfWeek": "среда",
+                "Hours": "07:00-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2607521,
+                "DayOfWeek": "четверг",
+                "Hours": "07:00-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2607522,
+                "DayOfWeek": "пятница",
+                "Hours": "07:00-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2607523,
+                "DayOfWeek": "суббота",
+                "Hours": "07:00-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2607524,
+                "DayOfWeek": "воскресенье",
+                "Hours": "07:00-23:00"
+            }
+        ],
+        "ClarificationOfWorkingHoursSummer": "",
+        "HasEquipmentRental": "нет",
+        "EquipmentRentalComments": "",
+        "HasTechService": "да",
+        "TechServiceComments": "",
+        "HasDressingRoom": "да",
+        "HasEatery": "да",
+        "HasToilet": "да",
+        "HasWifi": "да",
+        "HasCashMachine": "нет",
+        "HasFirstAidPost": "да",
+        "HasMusic": "да",
+        "UsagePeriodSummer": "01.01-31.12",
+        "DimensionsSummer": [
+            {
+                "is_deleted": 0,
+                "global_id": 372498,
+                "Square": 750,
+                "Length": 25,
+                "Width": 30,
+                "Depth": 3
+            }
+        ],
+        "Lighting": "смешанное освещение",
+        "SurfaceTypeSummer": "специальное покрытие",
+        "Seats": 450,
+        "Paid": "платно",
+        "PaidComments": "",
+        "DisabilityFriendly": "частично приспособлен",
+        "ServicesSummer": "общая физическая подготовка",
+        "geoData": {
+            "coordinates": [
+                37.647817611,
+                55.701665078
+            ],
+            "type": "Point"
+        },
+        "geodata_center": null
+    },
+    {
+        "is_deleted": 0,
+        "global_id": 2721752477,
+        "ObjectName": "Бассейн «Касатка»",
+        "NameSummer": "Бассейн плавательный 25-метровый крытый",
+        "PhotoSummer": [
+            {
+                "is_deleted": 0,
+                "global_id": 80489,
+                "Photo": "7d06dfd6-3ed9-465f-911a-05997f7bd0d3"
+            }
+        ],
+        "AdmArea": "Восточный административный округ",
+        "District": "район Ивановское",
+        "Address": "улица Молостовых, дом 10А, строение 5",
+        "Email": "mso@mos.ru",
+        "WebSite": "mso.mossport.ru",
+        "HelpPhone": "(495) 681-17-16",
+        "HelpPhoneExtension": "",
+        "WorkingHoursSummer": [
+            {
+                "is_deleted": 0,
+                "global_id": 2607616,
+                "DayOfWeek": "понедельник",
+                "Hours": "07:00-22:30"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2607617,
+                "DayOfWeek": "вторник",
+                "Hours": "07:00-22:30"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2607618,
+                "DayOfWeek": "среда",
+                "Hours": "07:00-22:30"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2607619,
+                "DayOfWeek": "четверг",
+                "Hours": "07:00-22:30"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2607620,
+                "DayOfWeek": "пятница",
+                "Hours": "07:00-22:30"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2607621,
+                "DayOfWeek": "суббота",
+                "Hours": "09:00-21:30"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2607622,
+                "DayOfWeek": "воскресенье",
+                "Hours": "09:00-20:45"
+            }
+        ],
+        "ClarificationOfWorkingHoursSummer": "",
+        "HasEquipmentRental": "нет",
+        "EquipmentRentalComments": "",
+        "HasTechService": "нет",
+        "TechServiceComments": "",
+        "HasDressingRoom": "да",
+        "HasEatery": "нет",
+        "HasToilet": "да",
+        "HasWifi": "нет",
+        "HasCashMachine": "нет",
+        "HasFirstAidPost": "да",
+        "HasMusic": "да",
+        "UsagePeriodSummer": "01.01-31.12",
+        "DimensionsSummer": [
+            {
+                "is_deleted": 0,
+                "global_id": 372512,
+                "Square": 350,
+                "Length": 25,
+                "Width": 14,
+                "Depth": 1.8
+            }
+        ],
+        "Lighting": "смешанное освещение",
+        "SurfaceTypeSummer": "специальное покрытие",
+        "Seats": 0,
+        "Paid": "платно",
+        "PaidComments": "",
+        "DisabilityFriendly": "приспособлен для всех групп инвалидов",
+        "ServicesSummer": "общая физическая подготовка",
+        "geoData": {
+            "coordinates": [
+                37.829637295,
+                55.759760567
+            ],
+            "type": "Point"
+        },
+        "geodata_center": null
+    },
+    {
+        "is_deleted": 0,
+        "global_id": 2721752539,
+        "ObjectName": "Спортивный комплекс «Акватория ЗИЛ»",
+        "NameSummer": "Бассейн плавательный 50-метровый крытый",
+        "PhotoSummer": [
+            {
+                "is_deleted": 0,
+                "global_id": 80503,
+                "Photo": "98220ce0-b116-4f8f-8e13-1ed9a05ac821"
+            }
+        ],
+        "AdmArea": "Южный административный округ",
+        "District": "Даниловский район",
+        "Address": "Автозаводская улица, дом 23А, корпус 4",
+        "Email": "mso@mos.ru",
+        "WebSite": "mso.mossport.ru",
+        "HelpPhone": "(495) 681-17-16",
+        "HelpPhoneExtension": "",
+        "WorkingHoursSummer": [
+            {
+                "is_deleted": 0,
+                "global_id": 2607714,
+                "DayOfWeek": "понедельник",
+                "Hours": "07:00-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2607715,
+                "DayOfWeek": "вторник",
+                "Hours": "07:00-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2607716,
+                "DayOfWeek": "среда",
+                "Hours": "07:00-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2607717,
+                "DayOfWeek": "четверг",
+                "Hours": "07:00-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2607718,
+                "DayOfWeek": "пятница",
+                "Hours": "07:00-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2607719,
+                "DayOfWeek": "суббота",
+                "Hours": "07:00-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2607720,
+                "DayOfWeek": "воскресенье",
+                "Hours": "07:00-23:00"
+            }
+        ],
+        "ClarificationOfWorkingHoursSummer": "",
+        "HasEquipmentRental": "нет",
+        "EquipmentRentalComments": "",
+        "HasTechService": "нет",
+        "TechServiceComments": "",
+        "HasDressingRoom": "да",
+        "HasEatery": "да",
+        "HasToilet": "да",
+        "HasWifi": "нет",
+        "HasCashMachine": "нет",
+        "HasFirstAidPost": "да",
+        "HasMusic": "да",
+        "UsagePeriodSummer": "01.09-31.08",
+        "DimensionsSummer": [
+            {
+                "is_deleted": 0,
+                "global_id": 372526,
+                "Square": 1100,
+                "Length": 50,
+                "Width": 22,
+                "Depth": 2.2
+            }
+        ],
+        "Lighting": "смешанное освещение",
+        "SurfaceTypeSummer": "специальное покрытие",
+        "Seats": 0,
+        "Paid": "платно",
+        "PaidComments": "",
+        "DisabilityFriendly": null,
+        "ServicesSummer": "общая физическая подготовка",
+        "geoData": {
+            "coordinates": [
+                37.647655399,
+                55.70092871
+            ],
+            "type": "Point"
+        },
+        "geodata_center": null
+    },
+    {
+        "is_deleted": 0,
+        "global_id": 2721753564,
+        "ObjectName": "Спортивный комплекс «Альбатрос»",
+        "NameSummer": "Бассейн плавательный 25-метровый крытый",
+        "PhotoSummer": [
+            {
+                "is_deleted": 0,
+                "global_id": 80610,
+                "Photo": "47c916b8-18cd-47d9-a827-186e2e6b1fff"
+            }
+        ],
+        "AdmArea": "Восточный административный округ",
+        "District": "район Косино-Ухтомский",
+        "Address": "Лухмановская улица, дом 19А",
+        "Email": "mso@mos.ru",
+        "WebSite": "mso.mossport.ru",
+        "HelpPhone": "(495) 681-17-16",
+        "HelpPhoneExtension": "",
+        "WorkingHoursSummer": [
+            {
+                "is_deleted": 0,
+                "global_id": 2608463,
+                "DayOfWeek": "понедельник",
+                "Hours": "07:00-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2608464,
+                "DayOfWeek": "вторник",
+                "Hours": "07:00-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2608465,
+                "DayOfWeek": "среда",
+                "Hours": "07:00-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2608466,
+                "DayOfWeek": "четверг",
+                "Hours": "07:00-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2608467,
+                "DayOfWeek": "пятница",
+                "Hours": "07:00-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2608468,
+                "DayOfWeek": "суббота",
+                "Hours": "08:30-21:30"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2608469,
+                "DayOfWeek": "воскресенье",
+                "Hours": "08:30-21:30"
+            }
+        ],
+        "ClarificationOfWorkingHoursSummer": "",
+        "HasEquipmentRental": "нет",
+        "EquipmentRentalComments": "",
+        "HasTechService": "нет",
+        "TechServiceComments": "",
+        "HasDressingRoom": "да",
+        "HasEatery": "нет",
+        "HasToilet": "да",
+        "HasWifi": "нет",
+        "HasCashMachine": "нет",
+        "HasFirstAidPost": "да",
+        "HasMusic": "да",
+        "UsagePeriodSummer": "01.01-31.12",
+        "DimensionsSummer": [
+            {
+                "is_deleted": 0,
+                "global_id": 372633,
+                "Square": 350,
+                "Length": 25,
+                "Width": 14,
+                "Depth": 1.8
+            }
+        ],
+        "Lighting": "смешанное освещение",
+        "SurfaceTypeSummer": "специальное покрытие",
+        "Seats": 0,
+        "Paid": "платно",
+        "PaidComments": "",
+        "DisabilityFriendly": "приспособлен для всех групп инвалидов",
+        "ServicesSummer": "общая физическая подготовка",
+        "geoData": {
+            "coordinates": [
+                37.898094554,
+                55.723127564
+            ],
+            "type": "Point"
+        },
+        "geodata_center": null
+    },
+    {
+        "is_deleted": 0,
+        "global_id": 2721753703,
+        "ObjectName": "Спортивный комплекс «Альбатрос Внуково»",
+        "NameSummer": "Бассейн плавательный 25-метровый крытый",
+        "PhotoSummer": [
+            {
+                "is_deleted": 0,
+                "global_id": 80638,
+                "Photo": "62cee3a2-14f7-4c6f-a487-f6be5dbf0f2e"
+            }
+        ],
+        "AdmArea": "Новомосковский административный округ",
+        "District": "район Внуково",
+        "Address": "Рассказовская улица, дом 31",
+        "Email": "mso@mos.ru",
+        "WebSite": "mso.mossport.ru",
+        "HelpPhone": "(495) 681-17-16",
+        "HelpPhoneExtension": "",
+        "WorkingHoursSummer": [
+            {
+                "is_deleted": 0,
+                "global_id": 2608659,
+                "DayOfWeek": "понедельник",
+                "Hours": "07:00-22:30"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2608660,
+                "DayOfWeek": "вторник",
+                "Hours": "07:00-22:30"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2608661,
+                "DayOfWeek": "среда",
+                "Hours": "07:00-22:30"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2608662,
+                "DayOfWeek": "четверг",
+                "Hours": "07:00-22:30"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2608663,
+                "DayOfWeek": "пятница",
+                "Hours": "07:00-22:30"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2608664,
+                "DayOfWeek": "суббота",
+                "Hours": "07:00-22:30"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2608665,
+                "DayOfWeek": "воскресенье",
+                "Hours": "07:00-22:30"
+            }
+        ],
+        "ClarificationOfWorkingHoursSummer": "",
+        "HasEquipmentRental": "нет",
+        "EquipmentRentalComments": "",
+        "HasTechService": "нет",
+        "TechServiceComments": "",
+        "HasDressingRoom": "да",
+        "HasEatery": "нет",
+        "HasToilet": "да",
+        "HasWifi": "да",
+        "HasCashMachine": "нет",
+        "HasFirstAidPost": "нет",
+        "HasMusic": "да",
+        "UsagePeriodSummer": "01.09-31.08",
+        "DimensionsSummer": [
+            {
+                "is_deleted": 0,
+                "global_id": 372661,
+                "Square": 350,
+                "Length": 25,
+                "Width": 14,
+                "Depth": 1.8
+            }
+        ],
+        "Lighting": "смешанное освещение",
+        "SurfaceTypeSummer": "специальное покрытие",
+        "Seats": 0,
+        "Paid": "платно",
+        "PaidComments": "",
+        "DisabilityFriendly": "частично приспособлен",
+        "ServicesSummer": "общая физическая подготовка",
+        "geoData": {
+            "coordinates": [
+                37.310432124,
+                55.613481902
+            ],
+            "type": "Point"
+        },
+        "geodata_center": null
+    },
+    {
+        "is_deleted": 0,
+        "global_id": 2721753961,
+        "ObjectName": "Спортивный комплекс «Парус»",
+        "NameSummer": "Бассейн плавательный площадью более 60 кв. м крытый",
+        "PhotoSummer": [
+            {
+                "is_deleted": 0,
+                "global_id": 80694,
+                "Photo": "a9d24810-5844-45df-bc43-172e4e6fd48f"
+            }
+        ],
+        "AdmArea": "Юго-Восточный административный округ",
+        "District": "район Выхино-Жулебино",
+        "Address": "Привольная улица, дом 42",
+        "Email": "mso@mos.ru",
+        "WebSite": "mso.mossport.ru",
+        "HelpPhone": "(495) 681-17-16",
+        "HelpPhoneExtension": "",
+        "WorkingHoursSummer": [
+            {
+                "is_deleted": 0,
+                "global_id": 2609051,
+                "DayOfWeek": "понедельник",
+                "Hours": "07:00-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2609052,
+                "DayOfWeek": "вторник",
+                "Hours": "07:00-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2609053,
+                "DayOfWeek": "среда",
+                "Hours": "07:00-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2609054,
+                "DayOfWeek": "четверг",
+                "Hours": "07:00-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2609055,
+                "DayOfWeek": "пятница",
+                "Hours": "07:00-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2609056,
+                "DayOfWeek": "суббота",
+                "Hours": "07:00-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2609057,
+                "DayOfWeek": "воскресенье",
+                "Hours": "07:00-23:00"
+            }
+        ],
+        "ClarificationOfWorkingHoursSummer": "",
+        "HasEquipmentRental": "нет",
+        "EquipmentRentalComments": "",
+        "HasTechService": "нет",
+        "TechServiceComments": "",
+        "HasDressingRoom": "да",
+        "HasEatery": "нет",
+        "HasToilet": "да",
+        "HasWifi": "нет",
+        "HasCashMachine": "нет",
+        "HasFirstAidPost": "да",
+        "HasMusic": "да",
+        "UsagePeriodSummer": "01.09-31.08",
+        "DimensionsSummer": [
+            {
+                "is_deleted": 0,
+                "global_id": 372717,
+                "Square": 132.8,
+                "Length": 16.6,
+                "Width": 8,
+                "Depth": 1.2
+            }
+        ],
+        "Lighting": "смешанное освещение",
+        "SurfaceTypeSummer": "специальное покрытие",
+        "Seats": 0,
+        "Paid": "платно",
+        "PaidComments": "",
+        "DisabilityFriendly": "не приспособлен",
+        "ServicesSummer": "общая физическая подготовка",
+        "geoData": {
+            "coordinates": [
+                37.849479373,
+                55.692336791
+            ],
+            "type": "Point"
+        },
+        "geodata_center": null
+    },
+    {
+        "is_deleted": 0,
+        "global_id": 2721754195,
+        "ObjectName": "Спортивный комплекс «Южнопортовый»",
+        "NameSummer": "Бассейн плавательный 25-метровый крытый",
+        "PhotoSummer": [
+            {
+                "is_deleted": 0,
+                "global_id": 80738,
+                "Photo": "ac5d415f-c2b1-41d5-9fac-07ceaa67bfb8"
+            }
+        ],
+        "AdmArea": "Юго-Восточный административный округ",
+        "District": "Южнопортовый район",
+        "Address": "улица Трофимова, дом 30, корпус 3",
+        "Email": "mso@mos.ru",
+        "WebSite": "mso.mossport.ru",
+        "HelpPhone": "(495) 681-17-16",
+        "HelpPhoneExtension": "",
+        "WorkingHoursSummer": [
+            {
+                "is_deleted": 0,
+                "global_id": 2609359,
+                "DayOfWeek": "понедельник",
+                "Hours": "07:00-22:30"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2609360,
+                "DayOfWeek": "вторник",
+                "Hours": "07:00-22:30"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2609361,
+                "DayOfWeek": "среда",
+                "Hours": "07:00-22:30"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2609362,
+                "DayOfWeek": "четверг",
+                "Hours": "07:00-22:30"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2609363,
+                "DayOfWeek": "пятница",
+                "Hours": "07:00-22:30"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2609364,
+                "DayOfWeek": "суббота",
+                "Hours": "07:00-22:30"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2609365,
+                "DayOfWeek": "воскресенье",
+                "Hours": "07:00-22:30"
+            }
+        ],
+        "ClarificationOfWorkingHoursSummer": "",
+        "HasEquipmentRental": "нет",
+        "EquipmentRentalComments": "",
+        "HasTechService": "нет",
+        "TechServiceComments": "",
+        "HasDressingRoom": "да",
+        "HasEatery": "да",
+        "HasToilet": "да",
+        "HasWifi": "да",
+        "HasCashMachine": "нет",
+        "HasFirstAidPost": "да",
+        "HasMusic": "да",
+        "UsagePeriodSummer": "01.08-30.06",
+        "DimensionsSummer": [
+            {
+                "is_deleted": 0,
+                "global_id": 372761,
+                "Square": 350,
+                "Length": 25,
+                "Width": 14,
+                "Depth": 1.8
+            }
+        ],
+        "Lighting": "смешанное освещение",
+        "SurfaceTypeSummer": "специальное покрытие",
+        "Seats": 0,
+        "Paid": "платно",
+        "PaidComments": "",
+        "DisabilityFriendly": "приспособлен для всех групп инвалидов",
+        "ServicesSummer": "общая физическая подготовка",
+        "geoData": {
+            "coordinates": [
+                37.683352952,
+                55.701346242
+            ],
+            "type": "Point"
+        },
+        "geodata_center": null
+    },
+    {
+        "is_deleted": 0,
+        "global_id": 2721754402,
+        "ObjectName": "Спортивный комплекс «Союз»",
+        "NameSummer": "Бассейн плавательный 25-метровый крытый",
+        "PhotoSummer": [
+            {
+                "is_deleted": 0,
+                "global_id": 80788,
+                "Photo": "90a13569-d468-4a02-ae60-8401b83be9cf"
+            }
+        ],
+        "AdmArea": "Юго-Западный административный округ",
+        "District": "район Тёплый Стан",
+        "Address": "улица Тёплый Стан, дом 9, корпус 9",
+        "Email": "mso@mos.ru",
+        "WebSite": "mso.mossport.ru",
+        "HelpPhone": "(495) 681-17-16",
+        "HelpPhoneExtension": "",
+        "WorkingHoursSummer": [
+            {
+                "is_deleted": 0,
+                "global_id": 2609709,
+                "DayOfWeek": "понедельник",
+                "Hours": "07:00-22:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2609710,
+                "DayOfWeek": "вторник",
+                "Hours": "07:00-22:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2609711,
+                "DayOfWeek": "среда",
+                "Hours": "07:00-22:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2609712,
+                "DayOfWeek": "четверг",
+                "Hours": "07:00-22:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2609713,
+                "DayOfWeek": "пятница",
+                "Hours": "07:00-22:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2609714,
+                "DayOfWeek": "суббота",
+                "Hours": "07:00-22:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2609715,
+                "DayOfWeek": "воскресенье",
+                "Hours": "07:00-22:00"
+            }
+        ],
+        "ClarificationOfWorkingHoursSummer": "",
+        "HasEquipmentRental": "нет",
+        "EquipmentRentalComments": "",
+        "HasTechService": "нет",
+        "TechServiceComments": "",
+        "HasDressingRoom": "да",
+        "HasEatery": "да",
+        "HasToilet": "да",
+        "HasWifi": "да",
+        "HasCashMachine": "нет",
+        "HasFirstAidPost": "да",
+        "HasMusic": "да",
+        "UsagePeriodSummer": "01.09-31.08",
+        "DimensionsSummer": [
+            {
+                "is_deleted": 0,
+                "global_id": 372811,
+                "Square": 350,
+                "Length": 25,
+                "Width": 14,
+                "Depth": null
+            }
+        ],
+        "Lighting": "смешанное освещение",
+        "SurfaceTypeSummer": "специальное покрытие",
+        "Seats": 0,
+        "Paid": "платно",
+        "PaidComments": "",
+        "DisabilityFriendly": "приспособлен для всех групп инвалидов",
+        "ServicesSummer": "общая физическая подготовка",
+        "geoData": {
+            "coordinates": [
+                37.493001123,
+                55.618768029
+            ],
+            "type": "Point"
+        },
+        "geodata_center": null
+    },
+    {
+        "is_deleted": 0,
+        "global_id": 2721755024,
+        "ObjectName": "Спортивный комплекс «Бескудниково»",
+        "NameSummer": "Бассейн плавательный 25-метровый крытый",
+        "PhotoSummer": [
+            {
+                "is_deleted": 0,
+                "global_id": 80927,
+                "Photo": "4c415541-e081-41c1-871d-0f629adce5fe"
+            }
+        ],
+        "AdmArea": "Северный административный округ",
+        "District": "Бескудниковский район",
+        "Address": "Бескудниковский бульвар, дом 12А",
+        "Email": "sever@mossport.ru",
+        "WebSite": "sever.mossport.ru",
+        "HelpPhone": "(499) 488-51-64",
+        "HelpPhoneExtension": "",
+        "WorkingHoursSummer": [
+            {
+                "is_deleted": 0,
+                "global_id": 2610682,
+                "DayOfWeek": "понедельник",
+                "Hours": "07:00-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2610683,
+                "DayOfWeek": "вторник",
+                "Hours": "07:00-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2610684,
+                "DayOfWeek": "среда",
+                "Hours": "07:00-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2610685,
+                "DayOfWeek": "четверг",
+                "Hours": "07:00-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2610686,
+                "DayOfWeek": "пятница",
+                "Hours": "07:00-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2610687,
+                "DayOfWeek": "суббота",
+                "Hours": "07:00-22:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2610688,
+                "DayOfWeek": "воскресенье",
+                "Hours": "07:00-22:00"
+            }
+        ],
+        "ClarificationOfWorkingHoursSummer": "",
+        "HasEquipmentRental": "нет",
+        "EquipmentRentalComments": "",
+        "HasTechService": "нет",
+        "TechServiceComments": "",
+        "HasDressingRoom": "да",
+        "HasEatery": "нет",
+        "HasToilet": "да",
+        "HasWifi": "нет",
+        "HasCashMachine": "нет",
+        "HasFirstAidPost": "да",
+        "HasMusic": "да",
+        "UsagePeriodSummer": "01.09-31.08",
+        "DimensionsSummer": [
+            {
+                "is_deleted": 0,
+                "global_id": 372950,
+                "Square": 275,
+                "Length": 25,
+                "Width": 11,
+                "Depth": 2
+            }
+        ],
+        "Lighting": "смешанное освещение",
+        "SurfaceTypeSummer": "специальное покрытие",
+        "Seats": 0,
+        "Paid": "платно",
+        "PaidComments": "прейскурант цент на сайте организации",
+        "DisabilityFriendly": "не приспособлен",
+        "ServicesSummer": "общая физическая подготовка",
+        "geoData": {
+            "coordinates": [
+                37.563778426,
+                55.862249424
+            ],
+            "type": "Point"
+        },
+        "geodata_center": null
+    },
+    {
+        "is_deleted": 0,
+        "global_id": 2721755438,
+        "ObjectName": "Олимпийский центр синхронного плавания",
+        "NameSummer": "Бассейн плавательный 25-метровый крытый №2, «Синхронного плавания тренировочный»",
+        "PhotoSummer": [
+            {
+                "is_deleted": 0,
+                "global_id": 81013,
+                "Photo": "f97c723d-8fb9-47fe-8916-58a69b17ba64"
+            }
+        ],
+        "AdmArea": "Южный административный округ",
+        "District": "Даниловский район",
+        "Address": "Автозаводская улица, дом 23А, корпус 4",
+        "Email": "mso@mos.ru",
+        "WebSite": "mso.mossport.ru",
+        "HelpPhone": "(495) 681-17-16",
+        "HelpPhoneExtension": "",
+        "WorkingHoursSummer": [
+            {
+                "is_deleted": 0,
+                "global_id": 2611284,
+                "DayOfWeek": "понедельник",
+                "Hours": "07:00-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2611285,
+                "DayOfWeek": "вторник",
+                "Hours": "07:00-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2611286,
+                "DayOfWeek": "среда",
+                "Hours": "07:00-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2611287,
+                "DayOfWeek": "четверг",
+                "Hours": "07:00-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2611288,
+                "DayOfWeek": "пятница",
+                "Hours": "07:00-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2611289,
+                "DayOfWeek": "суббота",
+                "Hours": "07:00-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2611290,
+                "DayOfWeek": "воскресенье",
+                "Hours": "07:00-23:00"
+            }
+        ],
+        "ClarificationOfWorkingHoursSummer": "",
+        "HasEquipmentRental": "нет",
+        "EquipmentRentalComments": "",
+        "HasTechService": "да",
+        "TechServiceComments": "",
+        "HasDressingRoom": "да",
+        "HasEatery": "да",
+        "HasToilet": "да",
+        "HasWifi": "да",
+        "HasCashMachine": "нет",
+        "HasFirstAidPost": "да",
+        "HasMusic": "да",
+        "UsagePeriodSummer": "01.01-31.12",
+        "DimensionsSummer": [
+            {
+                "is_deleted": 0,
+                "global_id": 373036,
+                "Square": 750,
+                "Length": 25,
+                "Width": 30,
+                "Depth": 3
+            }
+        ],
+        "Lighting": "смешанное освещение",
+        "SurfaceTypeSummer": "специальное покрытие",
+        "Seats": 0,
+        "Paid": "платно",
+        "PaidComments": "",
+        "DisabilityFriendly": "частично приспособлен",
+        "ServicesSummer": "общая физическая подготовка",
+        "geoData": {
+            "coordinates": [
+                37.647737145,
+                55.701342453
+            ],
+            "type": "Point"
+        },
+        "geodata_center": null
+    },
+    {
+        "is_deleted": 0,
+        "global_id": 2721755712,
+        "ObjectName": "Спортивный комплекс «Аквамарин»",
+        "NameSummer": "Бассейн плавательный 25-метровый крытый",
+        "PhotoSummer": [
+            {
+                "is_deleted": 0,
+                "global_id": 81069,
+                "Photo": "199c0a8b-7ac2-49c1-8d7b-4e4e2424aa26"
+            }
+        ],
+        "AdmArea": "Северо-Западный административный округ",
+        "District": "район Митино",
+        "Address": "улица Рословка, домовладение 5",
+        "Email": "mso@mos.ru",
+        "WebSite": "mso.mossport.ru",
+        "HelpPhone": "(495) 681-17-16",
+        "HelpPhoneExtension": "",
+        "WorkingHoursSummer": [
+            {
+                "is_deleted": 0,
+                "global_id": 2611676,
+                "DayOfWeek": "понедельник",
+                "Hours": "07:00-23:30"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2611677,
+                "DayOfWeek": "вторник",
+                "Hours": "07:00-23:30"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2611678,
+                "DayOfWeek": "среда",
+                "Hours": "07:00-23:30"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2611679,
+                "DayOfWeek": "четверг",
+                "Hours": "07:00-23:30"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2611680,
+                "DayOfWeek": "пятница",
+                "Hours": "07:00-23:30"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2611681,
+                "DayOfWeek": "суббота",
+                "Hours": "07:45-22:45"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2611682,
+                "DayOfWeek": "воскресенье",
+                "Hours": "07:45-22:45"
+            }
+        ],
+        "ClarificationOfWorkingHoursSummer": "",
+        "HasEquipmentRental": "нет",
+        "EquipmentRentalComments": "",
+        "HasTechService": "нет",
+        "TechServiceComments": "",
+        "HasDressingRoom": "да",
+        "HasEatery": "нет",
+        "HasToilet": "да",
+        "HasWifi": "да",
+        "HasCashMachine": "да",
+        "HasFirstAidPost": "да",
+        "HasMusic": "да",
+        "UsagePeriodSummer": "01.01-31.12",
+        "DimensionsSummer": [
+            {
+                "is_deleted": 0,
+                "global_id": 373092,
+                "Square": 350,
+                "Length": 25,
+                "Width": 14,
+                "Depth": 1.8
+            }
+        ],
+        "Lighting": "смешанное освещение",
+        "SurfaceTypeSummer": "специальное покрытие",
+        "Seats": 0,
+        "Paid": "платно",
+        "PaidComments": "",
+        "DisabilityFriendly": "приспособлен для лиц с нарушением ОДА",
+        "ServicesSummer": "общая физическая подготовка",
+        "geoData": {
+            "coordinates": [
+                37.366581437,
+                55.831410714
+            ],
+            "type": "Point"
+        },
+        "geodata_center": null
+    },
+    {
+        "is_deleted": 0,
+        "global_id": 2721755747,
+        "ObjectName": "Спортивный комплекс «Вешняки»",
+        "NameSummer": "Бассейн плавательный площадью более 60 кв. м крытый",
+        "PhotoSummer": [
+            {
+                "is_deleted": 0,
+                "global_id": 81081,
+                "Photo": "add9f09b-2dd3-488b-be95-80d759908e4e"
+            }
+        ],
+        "AdmArea": "Восточный административный округ",
+        "District": "район Вешняки",
+        "Address": "Косинская улица, дом 12Б",
+        "Email": "mso@mos.ru",
+        "WebSite": "mso.mossport.ru",
+        "HelpPhone": "(495) 681-17-16",
+        "HelpPhoneExtension": "",
+        "WorkingHoursSummer": [
+            {
+                "is_deleted": 0,
+                "global_id": 2611760,
+                "DayOfWeek": "понедельник",
+                "Hours": "07:00-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2611761,
+                "DayOfWeek": "вторник",
+                "Hours": "07:00-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2611763,
+                "DayOfWeek": "среда",
+                "Hours": "07:00-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2611765,
+                "DayOfWeek": "четверг",
+                "Hours": "07:00-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2611767,
+                "DayOfWeek": "пятница",
+                "Hours": "07:00-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2611769,
+                "DayOfWeek": "суббота",
+                "Hours": "08:30-21:30"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2611771,
+                "DayOfWeek": "воскресенье",
+                "Hours": "08:30-21:30"
+            }
+        ],
+        "ClarificationOfWorkingHoursSummer": "",
+        "HasEquipmentRental": "нет",
+        "EquipmentRentalComments": "",
+        "HasTechService": "нет",
+        "TechServiceComments": "",
+        "HasDressingRoom": "да",
+        "HasEatery": "нет",
+        "HasToilet": "да",
+        "HasWifi": "нет",
+        "HasCashMachine": "нет",
+        "HasFirstAidPost": "да",
+        "HasMusic": "да",
+        "UsagePeriodSummer": "01.01-31.12",
+        "DimensionsSummer": [
+            {
+                "is_deleted": 0,
+                "global_id": 373104,
+                "Square": 73.7,
+                "Length": 11,
+                "Width": 6.7,
+                "Depth": 1.2
+            }
+        ],
+        "Lighting": "смешанное освещение",
+        "SurfaceTypeSummer": "специальное покрытие",
+        "Seats": 0,
+        "Paid": "платно",
+        "PaidComments": "",
+        "DisabilityFriendly": "приспособлен для всех групп инвалидов",
+        "ServicesSummer": "общая физическая подготовка",
+        "geoData": {
+            "coordinates": [
+                37.83375421,
+                55.724707041
+            ],
+            "type": "Point"
+        },
+        "geodata_center": null
+    },
+    {
+        "is_deleted": 0,
+        "global_id": 2721755870,
+        "ObjectName": "Спортивный комплекс «Красный Октябрь»",
+        "NameSummer": "Бассейн плавательный 25-метровый крытый",
+        "PhotoSummer": [
+            {
+                "is_deleted": 0,
+                "global_id": 81105,
+                "Photo": "c1bc1748-9968-4269-b7e9-e03155f7e513"
+            }
+        ],
+        "AdmArea": "Северо-Западный административный округ",
+        "District": "район Покровское-Стрешнево",
+        "Address": "Тушинская улица, дом 16А",
+        "Email": "mso@mos.ru",
+        "WebSite": "mso.mossport.ru",
+        "HelpPhone": "(495) 681-17-16",
+        "HelpPhoneExtension": "",
+        "WorkingHoursSummer": [
+            {
+                "is_deleted": 0,
+                "global_id": 2611928,
+                "DayOfWeek": "понедельник",
+                "Hours": "07:00-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2611929,
+                "DayOfWeek": "вторник",
+                "Hours": "07:00-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2611930,
+                "DayOfWeek": "среда",
+                "Hours": "07:00-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2611931,
+                "DayOfWeek": "четверг",
+                "Hours": "07:00-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2611932,
+                "DayOfWeek": "пятница",
+                "Hours": "07:00-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2611933,
+                "DayOfWeek": "суббота",
+                "Hours": "07:00-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2611934,
+                "DayOfWeek": "воскресенье",
+                "Hours": "07:00-23:00"
+            }
+        ],
+        "ClarificationOfWorkingHoursSummer": "",
+        "HasEquipmentRental": "нет",
+        "EquipmentRentalComments": "",
+        "HasTechService": "да",
+        "TechServiceComments": "",
+        "HasDressingRoom": "да",
+        "HasEatery": "да",
+        "HasToilet": "да",
+        "HasWifi": "да",
+        "HasCashMachine": "нет",
+        "HasFirstAidPost": "да",
+        "HasMusic": "да",
+        "UsagePeriodSummer": "01.09-31.08",
+        "DimensionsSummer": [
+            {
+                "is_deleted": 0,
+                "global_id": 373128,
+                "Square": 400,
+                "Length": 25,
+                "Width": 16,
+                "Depth": null
+            }
+        ],
+        "Lighting": "смешанное освещение",
+        "SurfaceTypeSummer": "специальное покрытие",
+        "Seats": 0,
+        "Paid": "платно",
+        "PaidComments": "",
+        "DisabilityFriendly": null,
+        "ServicesSummer": "общая физическая подготовка",
+        "geoData": {
+            "coordinates": [
+                37.445480993,
+                55.827940238
+            ],
+            "type": "Point"
+        },
+        "geodata_center": null
+    },
+    {
+        "is_deleted": 0,
+        "global_id": 2721755872,
+        "ObjectName": "Спортивный комплекс «Красный Октябрь»",
+        "NameSummer": "Бассейн плавательный площадью более 60 кв. м крытый, «Детский»",
+        "PhotoSummer": [
+            {
+                "is_deleted": 0,
+                "global_id": 81106,
+                "Photo": "4ca4e13f-4a2c-46a7-81d5-51aff725f0f2"
+            }
+        ],
+        "AdmArea": "Северо-Западный административный округ",
+        "District": "район Покровское-Стрешнево",
+        "Address": "Тушинская улица, дом 16А",
+        "Email": "mso@mos.ru",
+        "WebSite": "mso.mossport.ru",
+        "HelpPhone": "(495) 681-17-16",
+        "HelpPhoneExtension": "",
+        "WorkingHoursSummer": [
+            {
+                "is_deleted": 0,
+                "global_id": 2611935,
+                "DayOfWeek": "понедельник",
+                "Hours": "07:00-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2611936,
+                "DayOfWeek": "вторник",
+                "Hours": "07:00-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2611937,
+                "DayOfWeek": "среда",
+                "Hours": "07:00-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2611938,
+                "DayOfWeek": "четверг",
+                "Hours": "07:00-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2611939,
+                "DayOfWeek": "пятница",
+                "Hours": "07:00-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2611940,
+                "DayOfWeek": "суббота",
+                "Hours": "07:00-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2611941,
+                "DayOfWeek": "воскресенье",
+                "Hours": "07:00-23:00"
+            }
+        ],
+        "ClarificationOfWorkingHoursSummer": "",
+        "HasEquipmentRental": "нет",
+        "EquipmentRentalComments": "",
+        "HasTechService": "да",
+        "TechServiceComments": "",
+        "HasDressingRoom": "да",
+        "HasEatery": "да",
+        "HasToilet": "да",
+        "HasWifi": "да",
+        "HasCashMachine": "нет",
+        "HasFirstAidPost": "да",
+        "HasMusic": "да",
+        "UsagePeriodSummer": "01.09-31.08",
+        "DimensionsSummer": [
+            {
+                "is_deleted": 0,
+                "global_id": 373129,
+                "Square": 80,
+                "Length": 10,
+                "Width": 8,
+                "Depth": null
+            }
+        ],
+        "Lighting": "смешанное освещение",
+        "SurfaceTypeSummer": "специальное покрытие",
+        "Seats": 0,
+        "Paid": "платно",
+        "PaidComments": "",
+        "DisabilityFriendly": null,
+        "ServicesSummer": "общая физическая подготовка",
+        "geoData": {
+            "coordinates": [
+                37.445102801,
+                55.827970434
+            ],
+            "type": "Point"
+        },
+        "geodata_center": null
+    },
+    {
+        "is_deleted": 0,
+        "global_id": 2721756272,
+        "ObjectName": "Физкультурно-оздоровительный комплекс с бассейном МГУСИТ на улице Лескова",
+        "NameSummer": "Бассейн плавательный 25-метровый крытый",
+        "PhotoSummer": [
+            {
+                "is_deleted": 0,
+                "global_id": 81146,
+                "Photo": "a56dd668-b95e-4fd3-bf77-2dd0925873d6"
+            }
+        ],
+        "AdmArea": "Северо-Восточный административный округ",
+        "District": "район Бибирево",
+        "Address": "улица Лескова, дом 25А, строение 1",
+        "Email": "priem@mgusit.ru",
+        "WebSite": "mgusit.mossport.ru",
+        "HelpPhone": "(495) 388-78-33",
+        "HelpPhoneExtension": "",
+        "WorkingHoursSummer": [
+            {
+                "is_deleted": 0,
+                "global_id": 2612215,
+                "DayOfWeek": "понедельник",
+                "Hours": "07:00-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2612216,
+                "DayOfWeek": "вторник",
+                "Hours": "07:00-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2612217,
+                "DayOfWeek": "среда",
+                "Hours": "07:00-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2612218,
+                "DayOfWeek": "четверг",
+                "Hours": "07:00-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2612219,
+                "DayOfWeek": "пятница",
+                "Hours": "07:00-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2612220,
+                "DayOfWeek": "суббота",
+                "Hours": "07:00-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2612221,
+                "DayOfWeek": "воскресенье",
+                "Hours": "07:00-23:00"
+            }
+        ],
+        "ClarificationOfWorkingHoursSummer": "",
+        "HasEquipmentRental": "нет",
+        "EquipmentRentalComments": "",
+        "HasTechService": "нет",
+        "TechServiceComments": "",
+        "HasDressingRoom": "да",
+        "HasEatery": "да",
+        "HasToilet": "да",
+        "HasWifi": "да",
+        "HasCashMachine": "нет",
+        "HasFirstAidPost": "да",
+        "HasMusic": "нет",
+        "UsagePeriodSummer": "01.09-31.08",
+        "DimensionsSummer": [
+            {
+                "is_deleted": 0,
+                "global_id": 373169,
+                "Square": 400,
+                "Length": 25,
+                "Width": 16,
+                "Depth": null
+            }
+        ],
+        "Lighting": "смешанное освещение",
+        "SurfaceTypeSummer": "специальное покрытие",
+        "Seats": 0,
+        "Paid": "платно",
+        "PaidComments": "",
+        "DisabilityFriendly": null,
+        "ServicesSummer": "общая физическая подготовка",
+        "geoData": {
+            "coordinates": [
+                37.622677155,
+                55.892854732
+            ],
+            "type": "Point"
+        },
+        "geodata_center": null
+    },
+    {
+        "is_deleted": 0,
+        "global_id": 2721757309,
+        "ObjectName": "Центр спорта «Московский»",
+        "NameSummer": "Бассейн плавательный 25-метровый крытый, «Московский»",
+        "PhotoSummer": [
+            {
+                "is_deleted": 0,
+                "global_id": 81402,
+                "Photo": "20b84639-78c4-4b6b-bd34-cf015a6cec2d"
+            }
+        ],
+        "AdmArea": "Новомосковский административный округ",
+        "District": "Филимонковский район",
+        "Address": "поселение Московский, город Московский, 1-й микрорайон, дом 39",
+        "Email": "mu_csm@list.ru",
+        "WebSite": "newmoscowsport.ru",
+        "HelpPhone": "(495) 841-08-70",
+        "HelpPhoneExtension": "",
+        "WorkingHoursSummer": [
+            {
+                "is_deleted": 0,
+                "global_id": 2614007,
+                "DayOfWeek": "понедельник",
+                "Hours": "07:00-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2614008,
+                "DayOfWeek": "вторник",
+                "Hours": "07:00-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2614009,
+                "DayOfWeek": "среда",
+                "Hours": "07:00-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2614010,
+                "DayOfWeek": "четверг",
+                "Hours": "07:00-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2614011,
+                "DayOfWeek": "пятница",
+                "Hours": "07:00-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2614012,
+                "DayOfWeek": "суббота",
+                "Hours": "07:00-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2614013,
+                "DayOfWeek": "воскресенье",
+                "Hours": "07:00-23:00"
+            }
+        ],
+        "ClarificationOfWorkingHoursSummer": "",
+        "HasEquipmentRental": "нет",
+        "EquipmentRentalComments": "",
+        "HasTechService": "нет",
+        "TechServiceComments": "",
+        "HasDressingRoom": "да",
+        "HasEatery": "да",
+        "HasToilet": "да",
+        "HasWifi": "нет",
+        "HasCashMachine": "нет",
+        "HasFirstAidPost": "да",
+        "HasMusic": "да",
+        "UsagePeriodSummer": "01.09-31.08",
+        "DimensionsSummer": [
+            {
+                "is_deleted": 0,
+                "global_id": 373425,
+                "Square": 350,
+                "Length": 25,
+                "Width": 14,
+                "Depth": 1.8
+            }
+        ],
+        "Lighting": "без дополнительного освещения",
+        "SurfaceTypeSummer": "специальное покрытие",
+        "Seats": 0,
+        "Paid": "платно",
+        "PaidComments": "согласно прейскуранту цен, указанных на сайте организации",
+        "DisabilityFriendly": "не приспособлен",
+        "ServicesSummer": "общая физическая подготовка",
+        "geoData": {
+            "coordinates": [
+                37.351075249,
+                55.598288646
+            ],
+            "type": "Point"
+        },
+        "geodata_center": null
+    },
+    {
+        "is_deleted": 0,
+        "global_id": 2721757540,
+        "ObjectName": "Бассейн ГАУ ДО ДЮСШ-2",
+        "NameSummer": "Бассейн плавательный крытый",
+        "PhotoSummer": [
+            {
+                "is_deleted": 0,
+                "global_id": 81458,
+                "Photo": "5d3094ce-45f8-4078-9436-f0a69adac35b"
+            }
+        ],
+        "AdmArea": "Троицкий административный округ",
+        "District": "район Троицк",
+        "Address": "город Троицк, Сиреневый бульвар, дом 17",
+        "Email": "swim_troitsk@mail.ru",
+        "WebSite": "дюсш2-троицк.рф",
+        "HelpPhone": "(495) 851-26-22",
+        "HelpPhoneExtension": "",
+        "WorkingHoursSummer": [
+            {
+                "is_deleted": 0,
+                "global_id": 2614399,
+                "DayOfWeek": "понедельник",
+                "Hours": "14:00-20:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2614400,
+                "DayOfWeek": "вторник",
+                "Hours": "14:00-20:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2614401,
+                "DayOfWeek": "среда",
+                "Hours": "14:00-20:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2614402,
+                "DayOfWeek": "четверг",
+                "Hours": "14:00-20:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2614403,
+                "DayOfWeek": "пятница",
+                "Hours": "14:00-20:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2614404,
+                "DayOfWeek": "суббота",
+                "Hours": "14:00-20:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2614405,
+                "DayOfWeek": "воскресенье",
+                "Hours": "14:00-20:00"
+            }
+        ],
+        "ClarificationOfWorkingHoursSummer": "",
+        "HasEquipmentRental": "нет",
+        "EquipmentRentalComments": "",
+        "HasTechService": "нет",
+        "TechServiceComments": "",
+        "HasDressingRoom": "да",
+        "HasEatery": "нет",
+        "HasToilet": "да",
+        "HasWifi": "нет",
+        "HasCashMachine": "нет",
+        "HasFirstAidPost": "нет",
+        "HasMusic": "да",
+        "UsagePeriodSummer": "01.09-31.08",
+        "DimensionsSummer": [
+            {
+                "is_deleted": 0,
+                "global_id": 373481,
+                "Square": 66,
+                "Length": 11,
+                "Width": 6,
+                "Depth": null
+            }
+        ],
+        "Lighting": "освещение светодиодными лампами",
+        "SurfaceTypeSummer": "специальное покрытие",
+        "Seats": 0,
+        "Paid": "бесплатно",
+        "PaidComments": "",
+        "DisabilityFriendly": "не приспособлен",
+        "ServicesSummer": "общая физическая подготовка",
+        "geoData": {
+            "coordinates": [
+                37.295245068,
+                55.472519077
+            ],
+            "type": "Point"
+        },
+        "geodata_center": null
+    },
+    {
+        "is_deleted": 0,
+        "global_id": 2721757820,
+        "ObjectName": "Спортивный комплекс «Волна»",
+        "NameSummer": "Бассейн плавательный 25-метровый крытый",
+        "PhotoSummer": [
+            {
+                "is_deleted": 0,
+                "global_id": 81520,
+                "Photo": "6352f22c-e990-46bd-bfbb-4b754f923cec"
+            }
+        ],
+        "AdmArea": "Южный административный округ",
+        "District": "район Чертаново Центральное",
+        "Address": "Чертановская улица, дом 45Б",
+        "Email": "mso@mos.ru",
+        "WebSite": "mso.mossport.ru",
+        "HelpPhone": "(495) 681-17-16",
+        "HelpPhoneExtension": "",
+        "WorkingHoursSummer": [
+            {
+                "is_deleted": 0,
+                "global_id": 2614833,
+                "DayOfWeek": "понедельник",
+                "Hours": "07:00-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2614834,
+                "DayOfWeek": "вторник",
+                "Hours": "07:00-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2614835,
+                "DayOfWeek": "среда",
+                "Hours": "07:00-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2614836,
+                "DayOfWeek": "четверг",
+                "Hours": "07:00-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2614837,
+                "DayOfWeek": "пятница",
+                "Hours": "07:00-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2614838,
+                "DayOfWeek": "суббота",
+                "Hours": "07:00-23:00"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2614839,
+                "DayOfWeek": "воскресенье",
+                "Hours": "07:00-23:00"
+            }
+        ],
+        "ClarificationOfWorkingHoursSummer": "",
+        "HasEquipmentRental": "нет",
+        "EquipmentRentalComments": "",
+        "HasTechService": "да",
+        "TechServiceComments": "",
+        "HasDressingRoom": "да",
+        "HasEatery": "нет",
+        "HasToilet": "да",
+        "HasWifi": "да",
+        "HasCashMachine": "нет",
+        "HasFirstAidPost": "да",
+        "HasMusic": "да",
+        "UsagePeriodSummer": "01.09-31.08",
+        "DimensionsSummer": [
+            {
+                "is_deleted": 0,
+                "global_id": 373543,
+                "Square": 400,
+                "Length": 25,
+                "Width": 16,
+                "Depth": null
+            }
+        ],
+        "Lighting": "смешанное освещение",
+        "SurfaceTypeSummer": "специальное покрытие",
+        "Seats": 0,
+        "Paid": "платно",
+        "PaidComments": "",
+        "DisabilityFriendly": null,
+        "ServicesSummer": "общая физическая подготовка",
+        "geoData": {
+            "coordinates": [
+                37.59394157,
+                55.607138146
+            ],
+            "type": "Point"
+        },
+        "geodata_center": null
+    },
+    {
+        "is_deleted": 0,
+        "global_id": 2721759899,
+        "ObjectName": "Аквастудия «На Береговой»",
+        "NameSummer": "Бассейн плавательный площадью более 60 кв. м крытый №1",
+        "PhotoSummer": [
+            {
+                "is_deleted": 0,
+                "global_id": 81842,
+                "Photo": "26a5f45a-ebe5-4961-a763-2f0ca95f56a3"
+            }
+        ],
+        "AdmArea": "Северо-Западный административный округ",
+        "District": "район Покровское-Стрешнево",
+        "Address": "Береговая улица, дом 4, корпус 10",
+        "Email": "mso@mos.ru",
+        "WebSite": "mso.mossport.ru",
+        "HelpPhone": "(495) 681-17-16",
+        "HelpPhoneExtension": "",
+        "WorkingHoursSummer": [
+            {
+                "is_deleted": 0,
+                "global_id": 2617087,
+                "DayOfWeek": "понедельник",
+                "Hours": "07:00-22:15"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2617088,
+                "DayOfWeek": "вторник",
+                "Hours": "07:00-22:15"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2617089,
+                "DayOfWeek": "среда",
+                "Hours": "07:00-22:15"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2617090,
+                "DayOfWeek": "четверг",
+                "Hours": "07:00-22:15"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2617091,
+                "DayOfWeek": "пятница",
+                "Hours": "07:00-22:15"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2617092,
+                "DayOfWeek": "суббота",
+                "Hours": "07:00-22:15"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2617093,
+                "DayOfWeek": "воскресенье",
+                "Hours": "07:00-22:15"
+            }
+        ],
+        "ClarificationOfWorkingHoursSummer": "",
+        "HasEquipmentRental": "нет",
+        "EquipmentRentalComments": "",
+        "HasTechService": "да",
+        "TechServiceComments": "",
+        "HasDressingRoom": "да",
+        "HasEatery": "да",
+        "HasToilet": "да",
+        "HasWifi": "да",
+        "HasCashMachine": "нет",
+        "HasFirstAidPost": "нет",
+        "HasMusic": "да",
+        "UsagePeriodSummer": "01.09-31.08",
+        "DimensionsSummer": [
+            {
+                "is_deleted": 0,
+                "global_id": 373865,
+                "Square": 169.2,
+                "Length": 23.5,
+                "Width": 7.2,
+                "Depth": 2.2
+            }
+        ],
+        "Lighting": "смешанное освещение",
+        "SurfaceTypeSummer": "специальное покрытие",
+        "Seats": 0,
+        "Paid": "платно",
+        "PaidComments": "",
+        "DisabilityFriendly": null,
+        "ServicesSummer": "общая физическая подготовка",
+        "geoData": {
+            "coordinates": [
+                37.470562288,
+                55.830013438
+            ],
+            "type": "Point"
+        },
+        "geodata_center": null
+    },
+    {
+        "is_deleted": 0,
+        "global_id": 2721759901,
+        "ObjectName": "Аквастудия «На Береговой»",
+        "NameSummer": "Бассейн плавательный площадью более 60 кв. м крытый №2, «Акватория большого бассейна»",
+        "PhotoSummer": [
+            {
+                "is_deleted": 0,
+                "global_id": 81843,
+                "Photo": "29cfa10b-fa50-462d-ad5b-b81df9e7d3cd"
+            }
+        ],
+        "AdmArea": "Северо-Западный административный округ",
+        "District": "район Покровское-Стрешнево",
+        "Address": "Береговая улица, дом 4, корпус 10",
+        "Email": "mso@mos.ru",
+        "WebSite": "mso.mossport.ru",
+        "HelpPhone": "(495) 681-17-16",
+        "HelpPhoneExtension": "",
+        "WorkingHoursSummer": [
+            {
+                "is_deleted": 0,
+                "global_id": 2617094,
+                "DayOfWeek": "понедельник",
+                "Hours": "07:00-22:15"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2617095,
+                "DayOfWeek": "вторник",
+                "Hours": "07:00-22:15"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2617096,
+                "DayOfWeek": "среда",
+                "Hours": "07:00-22:15"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2617097,
+                "DayOfWeek": "четверг",
+                "Hours": "07:00-22:15"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2617098,
+                "DayOfWeek": "пятница",
+                "Hours": "07:00-22:15"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2617099,
+                "DayOfWeek": "суббота",
+                "Hours": "07:00-22:15"
+            },
+            {
+                "is_deleted": 0,
+                "global_id": 2617100,
+                "DayOfWeek": "воскресенье",
+                "Hours": "07:00-22:15"
+            }
+        ],
+        "ClarificationOfWorkingHoursSummer": "",
+        "HasEquipmentRental": "нет",
+        "EquipmentRentalComments": "",
+        "HasTechService": "да",
+        "TechServiceComments": "",
+        "HasDressingRoom": "да",
+        "HasEatery": "да",
+        "HasToilet": "да",
+        "HasWifi": "да",
+        "HasCashMachine": "нет",
+        "HasFirstAidPost": "нет",
+        "HasMusic": "да",
+        "UsagePeriodSummer": "01.09-31.08",
+        "DimensionsSummer": [
+            {
+                "is_deleted": 0,
+                "global_id": 373866,
+                "Square": 106.6,
+                "Length": 20.5,
+                "Width": 5.2,
+                "Depth": 1.23
+            }
+        ],
+        "Lighting": "смешанное освещение",
+        "SurfaceTypeSummer": "специальное покрытие",
+        "Seats": 0,
+        "Paid": "платно",
+        "PaidComments": "",
+        "DisabilityFriendly": null,
+        "ServicesSummer": "общая физическая подготовка",
+        "geoData": {
+            "coordinates": [
+                37.470455,
+                55.829633
+            ],
+            "type": "Point"
+        },
+        "geodata_center": null
+    }
+  ]
